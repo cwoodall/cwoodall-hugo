@@ -17,12 +17,24 @@ jobs:
       run: git submodule update --init --recursive
     - run: git config --global user.email "chris.j.woodall@gmail.com"
     - run: git config --global user.name "Deploy Bot"
-    - uses: fregante/setup-git-token@v1
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
     - name: Hugo setup
       # You may pin to the exact commit or the version.
       # uses: peaceiris/actions-hugo@2e89aa66d0093e4cd14751b3028fc1a179452c2e
       uses: peaceiris/actions-hugo@v2.4.13
-    - name: Deploy
-      run: ./deploy.sh
+
+    # Build website
+    - name: Build website
+      run: hugo --minify -t researcher
+
+    # Deploy website
+    - name: Deploy website
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        # Change the values to your Github Pages repo
+        external_repository: cwoodall/cwoodall.github.io
+        publish_branch: master
+        publish_dir: ./public
+        # Define commit username/email to the Github Action bot
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'

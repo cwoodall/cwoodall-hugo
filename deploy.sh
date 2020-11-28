@@ -21,5 +21,7 @@ if [ -n "$*" ]; then
 fi
 git commit -m "$msg"
 
-# Push source and build repos.
-git push origin master
+if [ -z $1 ]; then
+	# Push source and build repos.
+	git push origin master
+fi
