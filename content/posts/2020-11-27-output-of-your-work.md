@@ -24,7 +24,7 @@ In this view the main output is the information, experience, and documentation t
 It is being process-oriented. In some ways this reminds me of the following excerpt from the [*Bhagavad Gita*][0]:
 
 >  You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself to be the cause of the results of your activities, nor be attached to inaction. 
-> - [Bhagavad Gita: Chapter 2, Verse 47][0]
+> — [Bhagavad Gita: Chapter 2, Verse 47][0]
 
 If you organize your work to sit on a framework of systems that can capture knowledge (and digest that into wisdom and principles), then you do the one thing you can do, which is engage in action. If you focus only on the final goal, and reward, you might miss the experience of doing the work. Maybe even miscalculate your efforts
 by becoming results oriented. By doing this you might neglect the experience of doing the work, to improve in the future, and share what 
