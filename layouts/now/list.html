@@ -12,9 +12,9 @@
 
     <h2>Then</h2>
     <ul>
-        {{ range after 1 .Pages }}
+    {{ range after 1 .Pages }}
         <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a></li>
-        {{ end }}>
+    {{ end }}
     </ul>
 </div>
 {{ end }}
