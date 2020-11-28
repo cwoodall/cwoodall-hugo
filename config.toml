@@ -1,5 +1,5 @@
 title = "Chris Woodall"
-baseURL = ""
+baseURL = "/"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
@@ -8,7 +8,7 @@ googleAnalytics = ""  # add your tracking id
 
 [params]
   author = "Chris Woodall"
-  description = "A simple monospaced resume theme for Hugo."
+  description = "Emebedded Software Engineer"
   favicon = "favicon.ico"  # path to a .ico to use as favicon
   [params.footer]
     text = "By Chris Woodall"
