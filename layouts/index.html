@@ -1,0 +1,46 @@
+{{ define "main" }}
+<div class="container">
+    {{ .Content }}
+
+    <h2>Recent Posts</h2>
+    {{with .Site.GetPage "/posts" }}
+    <ul>
+        {{ range first 4 .Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+    {{end}}
+
+
+    <h2>Recent Reading</h2>
+    {{with .Site.GetPage "/reading" }}
+    <ul>
+        {{ range first 4 .Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+    {{end}}
+
+
+    <h2>Recent Climbing</h2>
+    {{with .Site.GetPage "/climbing" }}
+    <ul>
+        {{ range first 4 .Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+    {{end}}
+
+
+    <h2>Recent Projects</h2>
+    {{with .Site.GetPage "/projects" }}
+    <ul>
+        {{ range first 4 .Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+    {{end}}
+
+
+</div>
+{{ end }}

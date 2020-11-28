@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<div class="container">
+    <h1>{{ .Title }}</h1>
+
+    {{ range .Pages }}
+    <div class="flex-column p-0">
+
+            <b><a href="{{ .Permalink }}">{{ .Title }} | {{ .Date.Format "2006-01-02" }} | {{upper .Params.Tag }}</b></h3> <br />
+            <a href="{{ .Params.Video }}">Video</a> | <a href="{{ .Params.Documentation }}">Documentation</a> | <a href="{{ .Params.Source }}">Source</a><br/>
+            {{ range .Params.Partners }} {{ . }} | {{ end }} Chris Woodall
+            <img src="{{ .Params.Image }}" style="max-width: 100%" />
+            
+            <p>{{ .Summary }}</p>
+            <br/>
+            <br/>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

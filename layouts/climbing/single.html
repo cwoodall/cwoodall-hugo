@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="container">
+    <h1 align="center">{{ .Title }}</h1>
+    <div align="center">{{ .Site.Params.author }} | {{ .Date.Format "2006-01-02" }}</div>
+
+    <img src="{{ .Params.Image }}" />
+
+    <p></p>
+    {{ .Content }}
+</div>
+{{ end }}

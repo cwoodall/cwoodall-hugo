@@ -1,0 +1,61 @@
+title = "Chris Woodall"
+baseURL = "https://cjwoodall.com"
+theme = "researcher"
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+math = true          # enable KaTeX (https://katex.org/) globally
+googleAnalytics = ""  # add your tracking id
+
+[params]
+  author = "Chris Woodall"
+  description = "A simple monospaced resume theme for Hugo."
+  favicon = "favicon.ico"  # path to a .ico to use as favicon
+  [params.footer]
+    text = "By Chris Woodall"
+    url = "https://github.com/ojroques/hugo-researcher"
+
+[permalinks]
+  "/" = "/:filename"
+
+[menu]
+  
+  [[menu.main]]
+    name = "Now"
+    url = "/now"
+    weight = 1
+    
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts"
+    weight = 2
+
+  [[menu.main]]
+    name = "Climb"
+    url = "/climbing"
+    weight = 3
+
+  [[menu.main]]
+    name = "Read"
+    url = "/reading"
+    weight = 3
+
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 3
+
+
+  [[menu.main]]
+    name = "Music"
+    url = "/Music"
+    weight = 3
+
+
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume.pdf"
+    weight = 4
+
+[markup.goldmark.renderer]
+  unsafe = true  # allow raw HTML in markdown files
