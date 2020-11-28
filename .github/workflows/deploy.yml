@@ -25,7 +25,7 @@ jobs:
     # Build website
     - name: Build website
       run: hugo --minify -t researcher
-
+    - run: echo "cwoodall.com" > public/CNAME
     # Deploy website
     - name: Deploy website
       uses: peaceiris/actions-gh-pages@v3
