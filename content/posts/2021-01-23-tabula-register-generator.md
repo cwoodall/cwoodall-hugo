@@ -1,7 +1,7 @@
 ---
 title: "Generating Register Maps from PDFs"
 date: 2021-01-23T20:12:02-05:00
-draft: false
+draft: true
 mermaid: true
 ---
 
