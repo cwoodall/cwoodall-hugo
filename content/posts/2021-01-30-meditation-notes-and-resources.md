@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-Over the past year or so I got a few people asking me about [meditation] and [mindfulness] practice and how I would recommend getting started. I am not an expert, monk, or any sort of authority on the subject. I am a beginner, and sometimes a little too proud of my progress. Right now I feel the need to reflect on this information I have gathered, and consolidate some of the texts, advice, and thoughts that I have expressed personally. I do this with the hope it may help others, but also may help myself recognize some of the gems in my practice and revisit them with more vigor, and awareness.
+Over the past year or so I got a few people asking me about meditation and [mindfulness] practice and how I would recommend getting started. I am not an expert, monk, or any sort of authority on the subject. I am a beginner, and sometimes a little too proud of my progress. Right now I feel the need to reflect on this information I have gathered, and consolidate some of the texts, advice, and thoughts that I have expressed personally. I do this with the hope it may help others, but also may help myself recognize some of the gems in my practice and revisit them with more vigor, and awareness.
 
 
 <!-- more -->
@@ -61,6 +61,8 @@ Here are a few books that I felt helped me along the way. There are many great b
 - [Already Free](https://www.amazon.com/Already-Free-Buddhism-Psychotherapy-Liberation-ebook/dp/B00XQ2Q9PE/ref=sr_1_1?dchild=1&keywords=Already+Free&qid=1612130614&s=digital-text&sr=1-1) by Bruce Tift. In this book, Tift discusses how western psychotherapy and eastern mindfulness, and Buddhist principles can be synthesized together to both: improve your situation in life, and also realize you are already free. It is a good struggle with a fundamental paradox at the core of mindfulness practice for the driven individual
 - [This is It](https://www.amazon.com/This-Other-Essays-Spiritual-Experience-ebook/dp/B004G8P1I8/ref=sr_1_1?dchild=1&keywords=This+is+It&qid=1612130711&s=digital-text&sr=1-1) by Alan Watts. Is just a bunch of fun essays. Allan Watts brings a bit more of a Zen vibe and is not unwilling to smack you upside the head.
 - [Radical Acceptance](https://www.amazon.com/Radical-Acceptance-Tara-Brach-ebook/dp/B000FC2NHG/ref=sr_1_1?crid=P3DQ80LLJLH4&dchild=1&keywords=radical+acceptance&qid=1612130775&s=digital-text&sprefix=Radical+Accept%2Cdigital-text%2C167&sr=1-1) by Tara Brach is a wonderful tale of why you deserve to accept yourself, some good exercises for doing so. Stitching together teaching, personal life experience, and actionable meditations into one book that can help you with self-acceptance and compassion.org/wiki/Meditationv
+
+
 [mindfulness]: https://www.psychologytoday.com/us/basics/mindfulness
 [myth-of-sisyphus]: https://www.amazon.com/dp/B08RW1JBYW/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
 [the-beats]: https://en.wikipedia.org/wiki/Beat_Generation
