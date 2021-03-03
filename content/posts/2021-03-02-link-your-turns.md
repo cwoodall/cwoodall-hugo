@@ -3,6 +3,7 @@ title: "Link Your Turns"
 date: 2021-03-02T21:20:47-05:00
 draft: false
 mermaid: true
+image: /img/posts/link-your-turns.jpg
 ---
 
 When I am skiing and I am in a flow state I tend to be able to make all the turns I need to to keep my speed under control, weave through trees and not get flung down a steep mogul field. However, when I am not fully present I will tend to overturn. I can't link my turns. The anxiety, fear, lack of concentration comes over and under the worst conditions I can end up going backwards down hill. Skiing, and mountain biking, are pretty good analogies for decision making under pressure. They are flow-dependent sports, you need the fitness and skill to get there, but you also need the whole body focus that is synonymous with a flow state. In my experience it would appear that high performers in many fields are making decisions and corrections rapidly: balancing speed, control and enjoyment as they find their line down the mountain.  They keep linking their turns.
