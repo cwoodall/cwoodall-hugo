@@ -8,7 +8,7 @@ googleAnalytics = ""  # add your tracking id
 
 [params]
   author = "Chris Woodall"
-  description = "Emebedded Software Engineer"
+  description = "Embedded Software Engineer"
   favicon = "favicon.ico"  # path to a .ico to use as favicon
   [params.footer]
     text = "By Chris Woodall"
