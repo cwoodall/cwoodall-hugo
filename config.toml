@@ -57,5 +57,10 @@ googleAnalytics = ""  # add your tracking id
     url = "/resume.pdf"
     weight = 4
 
+  [[menu.main]]
+    name = "Digital Art"
+    url = "/generative-art-studio"
+    weight = 3
+    
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
