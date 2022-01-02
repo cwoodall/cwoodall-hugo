@@ -11,7 +11,7 @@ googleAnalytics = ""  # add your tracking id
   description = "Embedded Software Engineer"
   favicon = "favicon.ico"  # path to a .ico to use as favicon
   [params.footer]
-    text = "By Chris Woodall"
+    text = "Built with Hugo and the Hugo Researcher Theme"
     url = "https://github.com/ojroques/hugo-researcher"
 
 [permalinks]
@@ -37,7 +37,7 @@ googleAnalytics = ""  # add your tracking id
   [[menu.main]]
     name = "Read"
     url = "/reading"
-    weight = 3
+    weight = 2
 
 
   [[menu.main]]
@@ -56,6 +56,11 @@ googleAnalytics = ""  # add your tracking id
     name = "Resume"
     url = "/resume.pdf"
     weight = 4
+
+  [[menu.main]]
+    name = "Art"
+    url = "/generative-art-studio"
+    weight = 3
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
