@@ -6,17 +6,19 @@ mermaid: true
 image: /img/posts/2022-01-02-obsidian-ios-sync.md/banner.png
 ---
 
-Obsidian is a wonderful note taking too, but until mid 2021 there was no official mobile application. I use git to host my Obsidian vault's and github to create websites from them. However, on iOS there is no native support for using git to sync your notes. I found a free method which uses [**a-shell**](https://holzschu.github.io/a-Shell_iOS) which can be semi-automated after initial setup using iOS shortcuts. There are two other methods that are well documented on the [Obsidian forum](https://forum.obsidian.md):
+Obsidian is a wonderful note-taking too, but until mid-2021 there was no official mobile application. I use git to host my Obsidian vaults, and github to store them and sometimes create websites from them using a GitHub Action, GitHub Pages and Neuron. This is how I host my [Generative Art Studio](https://cwoodall.com/generative-art-studio/) page. However, on iOS there is no native support for using git to sync your notes. You can use iCloud, or Obsidian Sync. I have no issues with paying for either of these services, but I wanted to be able to keep my current workflow, but extend it to mobile. 
+
+I developed a free method using [**a-shell**](https://holzschu.github.io/a-Shell_iOS), which can be automated, after initial setup, using iOS Shortcuts. There are two other methods that are well documented on the [Obsidian forum](https://forum.obsidian.md):
 
 - [WorkingCopy](https://forum.obsidian.md/t/mobile-setting-up-ios-git-based-syncing-with-mobile-app-using-working-copy/16499): WorkingCopy is a paid application, which runs
 - [iSH](https://forum.obsidian.md/t/mobile-sync-with-git-on-ios-for-free-using-ish/20861/8):  iSH runs an alpine linux container, and this method works. However, it does not have shortcut access, so you would need to launch the application and run git manually.
 
-This method uses [**a-shell**](https://holzschu.github.io/a-Shell_iOS), which uses webAssembly for many of it's executables, which allows it to be more flexible, this has support for python, lua, javascript, C and C++, and most importantly git, using lg2.
+This method uses [**a-shell**](https://holzschu.github.io/a-Shell_iOS), which uses webAssembly for many of it's executables, which allows it to be more flexible, this has support for python, lua, javascript, C and C++, and most importantly git, using lg2. The main benefit is it is free (iSH is also free), and it is natively scriptable using Shortcuts (which iSH is not).
+
+So let's get started.
 
 <!--more-->
 
-
-To set this up:
 
 ### Install the software
 
@@ -66,8 +68,8 @@ lg2 push
 <img src="/img/posts/2022-01-02-obsidian-ios-sync.md/shortcut-sync.png" width="200px" />
 
 
-So long as you keep a strict discipline of pulling before making changes, and pushing changes from your Linux, Mac and Windows Obsidian instances this setup is pretty stable. It is a little additional step to manually sync. If you end up with merge conflicts you will need to manually resolve them using `lg2`.
+So long as you keep a strict discipline of pulling before making changes, and pushing changes from your Linux, Mac and Windows Obsidian instances frequently, this setup is pretty stable. It is a little additional step to manually trigger the sync shortcuts, when compared to a solution like Obsidian Sync, or iCloud which are all passive. If you end up with merge conflicts you will need to manually resolve them using `lg2`. This can be tricky because it diverges from `git` sometimes, and I found the documentation sparse.
 
-Here is an example of using these shortcuts in action:
+Here is an example of the shortcuts in action:
 
 <embed src="/img/posts/2022-01-02-obsidian-ios-sync.md/2022-01-02 18-06-40.mp4" autostart="false" height="300" width="100%"></emb>
