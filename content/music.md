@@ -3,12 +3,15 @@ layout: default
 title: Christopher Woodall - Music
 ---
 
+Recent music under the name TemporalShift
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1196276950&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/temporalshift" title="TemporalShift" target="_blank" style="color: #cccccc; text-decoration: none;">TemporalShift</a> · <a href="https://soundcloud.com/temporalshift/knight-of-infinite-resignation" title="Knight Of Infinite Resignation" target="_blank" style="color: #cccccc; text-decoration: none;">Knight Of Infinite Resignation</a></div>
+
 I have been trying to write down and publish some of my notes about mandolin, and other scores using [MuseScore 3.6](https://musescore.org). Please check into my [scores github repository](https://github.com/cwoodall/scores) to follow along! So far I have tabs + sheet music up for:
 
 - The head for [Work Song by Nat Adderly](https://github.com/cwoodall/scores/blob/main/mandolin/jazz/work-song/work-song-job.pdf) ([mp3](https://github.com/cwoodall/scores/blob/main/mandolin/jazz/work-song/work-song.mp3))
 
-For some of my classical music see
-[my bandcamp page][bandcamp]. Below are
+For some of my classical music see [my bandcamp page][bandcamp]. Below are
 scores and also players to listen to my pieces. Most of them were composed
 in 2008-2010 when I was at Northport High School in the music theory
 program there.
