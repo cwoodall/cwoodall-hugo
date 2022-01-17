@@ -29,7 +29,11 @@ So let's get started.
 1. Launch a-shell. 
 2. Mount the Obsidian directory you will be doing your work within. This will be the Obsidian folder  : `pickFolder`
     <embed src="/img/posts/2022-01-02-obsidian-ios-sync.md/2022-01-02 18-03-48.mp4" autostart="false" height="300" width="100%"></emb>
-3. Create an ssh key`ssh-keygen` (We assume that you use the default and have already used `pickFolder`).
+    - WARNING: In the above video I use an iCloud folder. I do not recommend this. After a week of using this on my iPad and iPhone I started running into issues here.
+3. Create an ssh key using `ssh-keygen`. At this time GitHub no longer supports SHA-1 so we will need to use an ED25519 key.
+   ``` sh
+   ssh-keygen -t ed25519 -C "user@email.com"
+   ```
 4. Share the public key with your github or gitlab accounts you need to clone from.
 5. Clone your obsidian vault:
     ```lg2 clone ssh://git@github.com:blah/blah.git folder-name```
@@ -37,7 +41,8 @@ So let's get started.
 6. `cd folder-name`
 7. Setup `user.identityFile` and user configurations. This will set the default identity file to use, as well as the name and email address to sign the commits with. These are setup per repository with lg2 as it does not seem to have `--global` configuration access.
     ``` sh
-    lg2 config user.identityFile ~/Documents/.ssh/id_rsa.pub
+    lg2 config user.identityFile ~/Documents/.ssh/id_ed25519
+    lg2 config user.password ""
     lg2 config user.name "Name"
     lg2 config user.email "email@email.com"
     ```
