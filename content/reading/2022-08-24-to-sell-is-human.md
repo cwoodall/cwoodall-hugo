@@ -25,7 +25,9 @@ We are curators of information, not hoarders of information in this modern era. 
 
 And then Dan recommends the following skills for us to practice in our daily and sales lives:
 
-### The Pitch: Dan recommends having about 6 pitches available and to keep refining them over time.
+### The Pitch: 
+
+Dan recommends having about 6 pitches available and to keep refining them over time.
 1. The One-Word Pitch: What makes everythign you are talking about tick
 2. The Question Pitch: Let people come to your conclusion on their own
 3. The Rhyming Pitch: Things that rhyme, stay over time.
