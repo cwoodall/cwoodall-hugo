@@ -41,7 +41,7 @@ So let's get started.
 6. `cd folder-name`
 7. Setup `user.identityFile` and user configurations. This will set the default identity file to use, as well as the name and email address to sign the commits with. These are setup per repository with lg2 as it does not seem to have `--global` configuration access.
     ``` sh
-    lg2 config user.identityFile ~/Documents/.ssh/id_ed25519
+    lg2 config user.identityFile "~/Documents/.ssh/id_ed25519"
     lg2 config user.password ""
     lg2 config user.name "Name"
     lg2 config user.email "email@email.com"
