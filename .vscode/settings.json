@@ -3,5 +3,17 @@
         "Kahneman",
         "libgit",
         "scriptable"
+    ],
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "content/reading/2022-08-24-to-sell-is-human.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "content/reading/2022-10-09-the-phoenix-project.md"
+        }
     ]
 }
