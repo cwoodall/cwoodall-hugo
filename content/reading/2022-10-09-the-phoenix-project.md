@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Chris Woodall
-title: "The Phoenix Project by Gene Kin, Kevin Behr and George Spafford"
+title: "The Phoenix Project by Gene Kim, Kevin Behr and George Spafford"
 date: 2022-10-10T00:00:00+00:00
 comments: false
 image: https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/51zDZ1s4hCL.jpg

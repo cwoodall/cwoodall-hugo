@@ -1,9 +1,9 @@
 ---
 title: "A Brief Review of My 2023 Mini-Sabbatical"
 date: 2023-08-29T13:30:09-04:00
-draft: true
+draft: false
 mermaid: true
-# image: /img/posts/2022-02-28-autowah/banner.drawio.png
+image: /img/posts/2023-08-29-sabbatical/banner.png
 ---
 
 During the summer of 2023, I took 3 months off from June to September as I transitioned between two jobs. I wanted to experiment with taking some free time to travel, move, and reconnect with my hobbies. I found this time to be very beneficial for my physical and mental health, and I am very grateful to have had the privilege to have been able to take some extended time off from work. I found some perspective and space that will serve me well in my future endeavors.
@@ -34,7 +34,7 @@ The focus of June was travel, visiting family, and spending time away from home 
 
 #### June 1, 2023: My last day at BETA
 
-I finished up on June 1 and my co-workers gave me a great send-off. I received this awesome vest. I will remember all of the great times at BETA and I hope that they will succeed in the future. I developed as an Embedded Software Engineer and as a Motor Controls Engineer there. I learned a lot about leadership, and myself along the way. I am grateful for the opportunity to work there, and for the people I got to work with.
+I finished up on June 1 and my co-workers gave me a great send-off. I received an awesome vest. I will remember all of the great times at BETA and I hope for their continued succeed. I learned a ton about motors, controls and software engineering during my time at BETA, and I refined elements of my sense of self, leadership style and have a deeper knowledge of who I am and what works for me.
 
 ![](/img/posts/2023-08-29-sabbatical/beta-biker-jacket.jpeg)
 
@@ -43,7 +43,7 @@ I finished up on June 1 and my co-workers gave me a great send-off. I received t
 | :------------------------------------------------------: |
 | ![](/img/posts/2023-08-29-sabbatical/family-turtle.jpeg) |
 
-My first destination after some more local farewells, and good food in Burlington was to head off to New York to visit my parents. I got a chance to explore some of the local mountain biking, which was amazing and right out the back door. I can't believe I never explored it before! Along the way, I also met up with one of my cousins who is in medical school and has taken up climbing. I spent a lot of time hanging with the parents and seeing my Oma.
+The first order of business was to drive to New York to visit my parents. I got a chance to explore some of the local mountain biking, which was amazing and right out the back door. I can't believe I never explored it before! Along the way, I also met up with one of my cousins who is in medical school and has taken up climbing. I spent a lot of time hanging with the parents and seeing my Oma.
 
 | Getting some tacos with the family                      |
 | :------------------------------------------------------ |
@@ -197,13 +197,14 @@ Towards the end of August, I headed to Island Falls, Maine where I spent a week 
   - Ancillary Mercy
   - Mistborn: Secret History
 - Playing music with Emily's family
-- Foraging for Chanterelle Mushrooms (and eating them)
+- Foraging for Chanterelle Mushrooms (and cooking them)
+- 
 | ![](/img/posts/2023-08-29-sabbatical/chanterelle.jpeg) |
 | :----------------------------------------------------------------: |
 
 ## What's Next
 
-I am starting a job as a Real-Time Controls Engineer at Commonwealth Fusion Systems. I will still be programming in C++ and Python, but my focus will be on control systems for Tokamak Operations. This is a change from my past roles which have all been explicitly in Embedded Software Engineering or Electrical Engineering. I have grown into a controls engineering role working at BETA implementing, tuning, and designing motor controllers for PMSM motors. I am excited to continue to grow in this field and learn more about the physics and engineering of fusion reactors. 
+I am starting a job as a Senior Real-Time Controls Engineer at Commonwealth Fusion Systems. I will still be programming in C++ and Python, but my focus will be on control systems for Tokamak Operations. This is a change from my past roles which have all been explicitly in Embedded Software Engineering or Electrical Engineering. I have grown into a controls engineering role working at BETA implementing, tuning, and designing motor controllers for PMSM motors. I am excited to continue to grow in this field and learn more about the physics and engineering of fusion reactors. 
 
 I have been doing some arrangements for violin and mandolin and want to keep on doing that, and recording more music.
 
@@ -218,6 +219,8 @@ I am planning on continuing to read, and write about what I read.
 I commit to improving my health.
 
 I want to build community, and friendships and continue to grow my relationships in my life.
+
+I am curious about hydroponics now and am planning on starting a few hydroponic projects.
 
 ## Lessons Learnt
 
@@ -259,27 +262,39 @@ I want to build community, and friendships and continue to grow my relationships
 
 ### Books
 
-- [Ancillary Sword]()
-- [Ancillary Justice]()
+- [Ancillary Sword](https://www.amazon.com/Ancillary-Sword-Imperial-Radch-Leckie/dp/0316246654)
+- [Ancillary Justice](https://www.amazon.com/s?k=ancillary+Justice&i=stripbooks&crid=3NJLFTD75PRX8&sprefix=ancillary+justice%2Cstripbooks%2C121&ref=nb_sb_noss_1)
 - Mistborn Era 2
+- Tress of the Emerald Sea
+- Dawn (Lilith's Brood Book 1)
+- Borne
+- The Three Marriages
+- The Life Changing Magic of Tidying up
 - [Mistborn: Secret History](https://www.goodreads.com/book/show/30339465-mistborn)
 
 ### Wisdom
 
-- Take care of yourself
-- Take care of your relationships
+- Take care of yourself.
+- Take care of your relationships.
 - Meaning is paradoxically derived from what you do, not what you think. Meaning flows from action and is created.
 - Keep a strong connection to the things that make you excited, give you passion, and make you feel alive.
+- Stay curious.
+- Stay humble.
+
+### Music
+
+- Rise arranged for violin and mandolin
 
 ### Mushrooms Foraged
 
 - Chanterelles
+- Black Trumpets
+- Hedgehogs
 
 ### Projects Worked On
 
 - [Wahmbulance](https://github.com/cwoodall/audio-plugin-wahmbulance) (write-up pending)
 - C++ PMSM Motor Model (write-up pending)
 - Writing FMUs (Functional Mock-Ups) using Rust (https://fmi-standard.org/) (write-up pending)
-
 ---
 [four-hour]: https://fourhourworkweek.com/
