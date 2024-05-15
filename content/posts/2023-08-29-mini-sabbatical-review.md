@@ -227,10 +227,11 @@ I am curious about hydroponics now and am planning on starting a few hydroponic 
 1. My anxiety is reduced, and my sleep is better; however, this has I think less to do with work and more with a feeling of peace, hopefulness, and a feeling of security about my place in the world. I think a key insight is to **get good sleep (8 hours as a target)**, and have strategies for coping with nighttime anxiety (reading, writing, meditation, etc.). For me, nighttime "yoga nidra" meditations have been very useful if I am keyed up at night.
 2. I have a lot of energy, and I am excited to get back to work. I am excited to learn new things and to be challenged in new ways. Keeping non-work projects, and focuses fresh seems to be a way to unlock a lot of energy. My work is important to me, but it is not mine in a lot of ways. We collaborate on work with our peers, and having creative and athletic projects that allow you to grow and are self-driven is important for me to maintain a healthy amount of energy.
 3. Weight loss doesn't come for free. I kept hoping that by changing circumstances with work my weight would start to decrease, and while the trend is down; just removing work did not reduce my weight. However, having a more active day-to-day lifestyle and eating better food does help. Lasting change comes from lifestyle change and good habits not from massive shifts (most of the time).
-4. Curiosity
-5. Value growth over being
+4. Let curiosity guide you.
+5. Value growth over being "the best"
 6. Planning is hard, and entering a mini-sabbatical without the fitness required to take on some of your bucket list items is hard. If I choose to take extended time off of work again I will likely do more work around choosing a few bigger objectives to hit and train for them; as well as, scheduling good time to relax, reset, and reassess
 7. Plan fun and exciting things all of the time. Most of the trips I went on would be possible to fit in during a work schedule in an abbreviated form. Just make the time to go and do the things that make you whole.
+8. Building systems/doing projects as a way of achieving goals works for me, even if it is not the most efficient.
 
 
 ## Lists of Things
