@@ -29,7 +29,7 @@ When planning, I considered several options:
 
 At first glance, these seemed too remote to access without a car. However, I discovered that Wachusett Station (the end of the Fitchburg Line) was within a ~15-mile ride of Rutland State Forest. From there, I needed to find accommodations.
 
-This region of Massachusetts is surprisingly sparse in services despite numerous residences—food, hotels, and other amenities are limited. We had previously visited Barre, MA for the NEMBA Barre Awesome Ride, which sits at a logical connection to Rutland State Forest and near the Mass Central Rail Trail. Fortunately, we found suitable lodging in Barre and had heard good things about Stone Cow Brewery. This became our overnight destination.
+This region of Massachusetts is surprisingly sparse in services despite numerous residences — food, hotels, and other amenities are limited. We had previously visited Barre, MA for the NEMBA Barre Awesome Ride, which sits at a logical connection to Rutland State Forest and near the Mass Central Rail Trail. Fortunately, we found suitable lodging in Barre and had heard good things about Stone Cow Brewery. This became our overnight destination.
 
 Originally we intended to camp, exploring options like HipCamp and Mid-State Trail shelters (including Pout and Trout), but decided to reduce pressure by staying indoors to improve the chances of an enjoyable late April/early May adventure.
 
@@ -39,22 +39,28 @@ For our return journey, we plotted a route along the Mass Central Rail Trail dow
 
 ![](/img/posts/2025-05-07-bikeovernight/image-2-packing.JPG)
 
-I was on a Surly Bridge Club, I ran a rear rack with a 20L dry bag on the rear. This was lashed down with Voile straps. For other bags a small saddle bag with my repair kit I had
+I was on a Surly Bridge Club, I ran a rear rack with a 20L dry bag on the rear. This was lashed down with Voile straps. For other bags: a small saddle bag with my repair kit I had
 sewn together the day prior (roll top style), a top tube bag (Revelate MagTank), a home made stem feed bag, and a Swift Catalyst handlebar bag. I also ran 2 water bottles in the frame cages.
 
 All of my clothes went in the dry bag, and then food, water, layers, etc went in the front bags.
 
-Emily used the "Rock Dove" her lovingly named Salsa Journeyer with Panniers and a 
+Emily used the "Rock Dove", her lovingly-named Salsa Journeyer with Panniers and a 
 frame bag + rando closure style front bag I had made a few weeks ago.
 
 ![](/img/posts/2025-05-07-bikeovernight/image-3-bridge-club-night-before.JPG)
+![](/img/posts/2025-05-07-bikeovernight/emmy-bike.jpg)
+
+The Bridge Club has 27.5 x 2.35" Vittoria Mezcals (mostly overkill but performed well). The Journeyer had 650b x 47 mm Terraveil Washburns (which performed well for all but the chunkiest of terrain). The route was probably about 60/30/10 between pavement (mostly quiet country roads), gravel, and singletrack. That is an approximate estimate.
 
 ## Day 1: Wachusett Station (Fitchburg Line) to Barre, MA
 
-![](/img/posts/2025-05-07-bikeovernight/leaving-wachusett.JPG)
+![](/img/posts/2025-05-07-bikeovernight/belmont-1.jpg)
+![](/img/posts/2025-05-07-bikeovernight/belmont-emmy.JPG)
+![](/img/posts/2025-05-07-bikeovernight/train-1.jpg)
 
 Day 1 began with a 6 AM wake-up. After a hearty breakfast of eggs, lox, and yogurt, we cycled to catch an 8 AM train from Belmont Station. Our morning proved slightly chaotic when we realized we had each routed to different rail stations. Fortunately, both stations were along the same route, so our miscommunication actually allowed us to board earlier than anticipated. On the train, we found ourselves squeezed into a car with four other bikes, leaving minimal space for our own. After standing with our bikes briefly, we eventually found adequate space for them.
 
+![](/img/posts/2025-05-07-bikeovernight/leaving-wachusett.JPG)
 ![](/img/posts/2025-05-07-bikeovernight/wachusett-1.JPG)
 
 We arrived at Wachusett Station around 9:45 AM and began our ride. I had worried this section might involve some harrowing roads, but we mostly encountered peaceful country lanes with minimal traffic and beautiful views.
@@ -73,18 +79,26 @@ We routed to Wachusett Mountain where we enjoyed the gravel of Balance Rock Road
 </video>
 
 
-As lunchtime approached with many miles still ahead, we stopped at Pout and Trout. The weather alternated between pleasant conditions and windy periods threatening rain. We refueled with tuna packets and cheese sticks before continuing toward the prison camp roads in Rutland State Forest.
+As lunchtime approached with many miles still ahead, we stopped at Pout and Trout. 
+
+![](/img/posts/2025-05-07-bikeovernight/lunch.JPG)
+The weather alternated between pleasant conditions and windy periods threatening rain. We refueled with tuna packets and cheese sticks before continuing toward the prison camp roads in Rutland State Forest.
 
 
 ![](/img/posts/2025-05-07-bikeovernight/view-1.JPG)
 ![](/img/posts/2025-05-07-bikeovernight/ware-river-2.JPG)
 
-Rutland State Forest offers amazing gravel riding—highly recommended for enthusiasts. While some sections are chunky (wider tires increase comfort), the riding was mostly non-technical. The area features several interesting historical buildings worth exploring. Our path led us to Barre Falls Dam, which presented a uniquely gorgeous landscape for Massachusetts. Eventually, we encountered an unplanned creek crossing, adding to our adventure. Thankfully, I had packed sandals and was able to safely ferry our bikes across.
+Rutland State Forest offers amazing gravel riding—highly recommended for enthusiasts. While some sections are chunky (wider tires increase comfort), the riding was mostly non-technical. The area features several interesting historical buildings worth exploring. Our path led us to Barre Falls Dam, which presented a uniquely gorgeous landscape for Massachusetts. 
 
 ![](/img/posts/2025-05-07-bikeovernight/rutland-1.JPG)
 ![](/img/posts/2025-05-07-bikeovernight/rutland-2.JPG)
 ![](/img/posts/2025-05-07-bikeovernight/rutland-3.JPG)
 ![](/img/posts/2025-05-07-bikeovernight/barre-falls-1.JPG)
+
+Eventually, we encountered an unplanned creek crossing, adding to our adventure. This was indicated as a through way on all the maps we saw, but there was no bridge. We almost turned around, but we noticed the water was only shin deep and we were able to wade across with no issues. Thankfully, I had packed sandals and was able to safely ferry our bikes across safely.
+
+
+![](/img/posts/2025-05-07-bikeovernight/water-crossing-2.JPG)
 ![](/img/posts/2025-05-07-bikeovernight/creek-1.JPG)
 
 The remaining journey to Barre was beautiful, though punctuated by one particularly cruel climb to finish the day.
@@ -97,8 +111,10 @@ After reaching the Jenkins Inn and showering, we visited Stone Cow Brewery for e
 
 ## Day 2: Barre, MA to Worcester, MA
 
+![](/img/posts/2025-05-07-bikeovernight/breakfast.JPG)
 
-Day 2 started with a delightful breakfast and stretching before we made our way to the Mass Central Rail Trail. The trail offered smooth, easy riding—a stark contrast to the navigational and terrain challenges of our first day. We even encountered family members along the way and made excellent time.
+
+Day 2 started with a delightful breakfast and stretching before we made our way to the Mass Central Rail Trail. The trail offered smooth, easy riding -- a stark contrast to the navigational and terrain challenges of our first day. We even encountered family members along the way and made excellent time.
 
 ![](/img/posts/2025-05-07-bikeovernight/mcrt-1.JPG)
 
@@ -117,15 +133,18 @@ Eventually, we decided to try a shortcut rather than following the roads suggest
 </video>
 
 
-<!-- IMAGE 10: The wooden beam crossing or one of your water crossings -->
-
-From there, we continued along the marked Mass Central Rail Trail toward Worcester to visit family and catch the MBTA from Union Station. I had concerns about cycling through Worcester, but the Sunday afternoon streets were largely empty, and we enjoyed bike lanes or quiet roads as we approached from the north.
-
 <video controls width="100%">
 <source src="/img/posts/2025-05-07-bikeovernight/cruising.mov"> 
 </video>
 
+From there, we continued along the marked Mass Central Rail Trail toward Worcester to visit family and catch the MBTA from Union Station. I had concerns about cycling through Worcester, but the Sunday afternoon streets were largely empty, and we enjoyed bike lanes or quiet roads as we approached from the north.
+
+
+
+![](/img/posts/2025-05-07-bikeovernight/worcester-waiting.JPG)
+![](/img/posts/2025-05-07-bikeovernight/worcester-emmy-bike.JPG)
 ![](/img/posts/2025-05-07-bikeovernight/at-worcester.JPG)
+
 
 ## Reflection
 
