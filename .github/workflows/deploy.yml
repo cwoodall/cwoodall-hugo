@@ -33,7 +33,7 @@ jobs:
     - name: Deploy website
       uses: peaceiris/actions-gh-pages@v3
       with:
-        personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         # Change the values to your Github Pages repo
         external_repository: cwoodall/cwoodall.github.io
         publish_branch: master
