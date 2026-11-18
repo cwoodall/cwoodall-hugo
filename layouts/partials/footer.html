@@ -1,0 +1,9 @@
+{{- /* From the hugo-researcher theme (github.com/ojroques/hugo-researcher, GPL-3.0; see LICENSES/hugo-researcher-GPL-3.0.txt). */ -}}
+<div id="footer" class="mb-5">
+    {{ with .Site.Params.footer }}
+        <hr>
+        <div class="container text-center">
+            <a href="{{ .url | absURL }}"><small>{{ .text }}</small></a>
+        </div>
+    {{ end }}
+</div>

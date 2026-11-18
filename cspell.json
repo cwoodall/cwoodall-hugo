@@ -7,7 +7,7 @@
   ],
   "dictionaries": ["project-words", "en_US", "softwareTerms", "companies", "names", "cpp", "python", "bash"],
   "files": ["content/**/*.md", "README.md"],
-  "ignorePaths": ["themes/**", "public/**", "resources/**", "static/**", ".vale/**", "node_modules/**"],
+  "ignorePaths": ["public/**", "resources/**", "static/**", ".vale/**", "node_modules/**"],
   "ignoreRegExpList": [
     "/\\{\\{[<%][\\s\\S]*?[%>]\\}\\}/g",
     "/<[a-z][^>]*>/gi",

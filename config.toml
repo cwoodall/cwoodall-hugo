@@ -1,6 +1,5 @@
 title = "Chris Woodall"
 baseURL = "https://cwoodall.com/"
-theme = "researcher"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 # First-time image processing of large photos can exceed the 30s default.

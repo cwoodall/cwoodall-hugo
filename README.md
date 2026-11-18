@@ -87,8 +87,13 @@ joins them in this order, then minifies and fingerprints the result:
 
 To change a color or size, edit `variables.css`; everything else uses `var(--name)`.
 To add a file, put it in `assets/css/` and add its name to the list in `head.html`.
-Never edit `themes/researcher`.
 
 Shared page templates are `layouts/partials/article.html` (single pages),
 `post-list.html` (section lists) and `cover.html` (hero image). Avoid inline
 `style=` in posts; add a class in `figures.css` or `content.css` instead.
+
+All templates live in `layouts/`; there is no theme. The page shell
+(`_default/baseof.html`), `partials/header.html`, `partials/footer.html`,
+`partials/math.html`, `_default/list.html`, `_default/single.html` and `404.html`
+were copied from the [hugo-researcher](https://github.com/ojroques/hugo-researcher)
+theme (GPL-3.0, see `LICENSES/hugo-researcher-GPL-3.0.txt`) and can be edited freely.

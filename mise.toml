@@ -8,18 +8,13 @@ hugo = "0.170.1"
 pre-commit = "4.6.2"
 vale = "3.26.0"
 
-[tasks.submodules]
-description = "Fetch the theme submodule"
-run = "git submodule update --init --recursive"
-
 [tasks.serve]
 description = "Live preview incl. drafts at http://localhost:1313/ (Ctrl-C to stop)"
-depends = ["submodules"]
 run = "hugo server -D --disableFastRender --navigateToChanged --openBrowser"
 
 [tasks.build]
 description = "Production build into public/"
-depends = ["submodules", "check"]
+depends = ["check"]
 run = "hugo --minify"
 
 [tasks.check]
