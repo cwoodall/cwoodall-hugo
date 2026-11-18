@@ -15,12 +15,11 @@ jobs:
       with:
         submodules: recursive
 
-    - name: Hugo setup
-      uses: peaceiris/actions-hugo@v3
+    # Installs hugo + Dart Sass at the versions pinned in mise.toml.
+    - name: Install Hugo and Dart Sass
+      uses: jdx/mise-action@v3
       with:
-        extended: true
-        # Keep in sync with the HUGO_VERSION in the Makefile.
-        hugo-version: 0.101.0
+        install_args: hugo aqua:sass/dart-sass
 
     # Reuse resized images between runs (Hugo's image cache).
     - name: Cache processed images

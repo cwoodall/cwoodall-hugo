@@ -1,21 +1,23 @@
 # cwoodall.com
 
-Hugo site (pinned to Hugo **0.101.0 extended**; see `Makefile` / `.github/workflows/deploy.yml`).
+Hugo site. Tool versions (Hugo 0.170.1, Dart Sass, pre-commit, Vale) are pinned in
+`mise.toml`, and CI installs the same versions.
 Pushes to `main` build and deploy to `cwoodall/cwoodall.github.io`; pull requests only build.
 
 ```sh
-make serve                                   # live preview incl. drafts
-make new SECTION=posts TITLE="My Trip"       # new dated page bundle
-make check                                   # find broken image/video/pdf references
-make build                                   # production build into public/
+mise run serve                       # live preview incl. drafts
+mise run new "My Trip"               # new dated page bundle (--section climbing, …)
+mise run check                       # find broken image/video/pdf references
+mise run build                       # production build into public/
+mise tasks                           # list all tasks (defined in mise.toml)
 ```
 
 ## Setup and checks
 
 ```sh
-mise install          # hugo 0.101.0, pre-commit, vale (see mise.toml)
+mise install          # hugo, dart-sass, pre-commit, vale (see mise.toml)
 pre-commit install    # run the checks on every commit
-make lint             # run them on every file
+mise run lint         # run them on every file
 ```
 
 On commit, pre-commit runs:
@@ -35,7 +37,7 @@ Skip the checks with `git commit --no-verify`, or skip one with `SKIP=vale git c
 
 ## Writing a post with images
 
-1. `make new SECTION=posts TITLE="Bike Overnight"` creates
+1. `mise run new "Bike Overnight"` creates
    `content/posts/YYYY-MM-DD-bike-overnight/index.md`.
 2. Copy photos/videos into that folder, then shrink them before committing:
    `scripts/prep-media.sh content/posts/YYYY-MM-DD-bike-overnight/*`

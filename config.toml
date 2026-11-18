@@ -6,7 +6,6 @@ enableEmoji = true
 # First-time image processing of large photos can exceed the 30s default.
 timeout = "300s"
 math = true          # enable KaTeX (https://katex.org/) globally
-googleAnalytics = ""  # add your tracking id
 
 [params]
   author = "Chris Woodall"
@@ -70,11 +69,14 @@ noClasses = false
 # Resized page-bundle images (see layouts/_default/_markup/render-image.html).
 # Hugo does not copy EXIF (incl. GPS) into resized outputs.
 [imaging]
-  quality = 80
   resampleFilter = "Lanczos"
+  [imaging.webp]
+    quality = 80
+  [imaging.jpeg]
+    quality = 80
 
 # Only publish page-bundle files that a template/shortcode actually uses
 # (resized webp, videos). Full-size originals stay out of public/.
 [[cascade]]
-  [cascade._build]
+  [cascade.build]
     publishResources = false

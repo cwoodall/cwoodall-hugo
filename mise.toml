@@ -1,6 +1,45 @@
-# Tool versions for this repo (https://mise.jdx.dev). Run `mise install`.
-# Keep hugo in sync with the Makefile and .github/workflows/deploy.yml.
+# Tools and tasks for this repo (https://mise.jdx.dev).
+#   mise install          install the pinned tools
+#   mise tasks            list tasks
+#   mise run <task>       run one (e.g. `mise run serve`)
+# CI installs the same tool versions from this file (jdx/mise-action).
 [tools]
-hugo-extended = "0.101.0"
+hugo = "0.170.1"
+# Hugo compiles assets/sass/ with Dart Sass (libsass was removed from Hugo).
+"aqua:sass/dart-sass" = "1.97.3"  # 1.98+ needs macOS 14
 pre-commit = "4.6.2"
 vale = "3.26.0"
+
+[tasks.submodules]
+description = "Fetch the theme submodule"
+run = "git submodule update --init --recursive"
+
+[tasks.serve]
+description = "Live preview incl. drafts at http://localhost:1313/ (Ctrl-C to stop)"
+depends = ["submodules"]
+run = "hugo server -D --disableFastRender --navigateToChanged --openBrowser"
+
+[tasks.build]
+description = "Production build into public/"
+depends = ["submodules", "check"]
+run = "hugo --minify"
+
+[tasks.check]
+description = "Find broken image/video/pdf references"
+run = "python3 scripts/check-assets.py"
+
+[tasks.lint]
+description = "Run all pre-commit hooks (spelling, prose, assets, build) on every file"
+run = "pre-commit run --all-files"
+
+[tasks.new]
+description = "Create a dated page bundle: mise run new \"My Trip\" [--section climbing]"
+usage = '''
+arg "<title>" help="Post title"
+flag "-s --section <section>" help="Content section" default="posts"
+'''
+run = 'scripts/new.sh "$usage_section" "$usage_title"'
+
+[tasks.clean]
+description = "Delete the build output"
+run = "rm -rf public"
