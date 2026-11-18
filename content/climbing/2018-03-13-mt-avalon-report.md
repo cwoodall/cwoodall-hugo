@@ -8,9 +8,9 @@ categories: climbing
 image: https://lh3.googleusercontent.com/_ekQngwWW8B7TPTphOPLToY5wH3Vdv_zrEFJ7HnCT6freCLY2Qp6Sg7htRhHNTDLk1R73WeZDbDPG3LbomF764GasLyMOMTjb_gLsa6YDYVod7XsAwRLUR7pC7s8TknsT3GcjZ1qGGIdh3RtsnJjlqqC5whLCppO420HV1y1ggCGCHjjNnxIA0275gJlUCTeFDdl7fsS0acZJQPRGbn6cVDuxkIOGg9gfKVL4GEja0x_n0gFfPPQ9F3e9qnrTLq7SW3S_By9u2wL6WqJdqnq5Thquyd2yq5c_Yvjm0PcZAqOvhILaZvGPvF6mhg6SiJfW4vS0cQeuvLIPmHmCuQJWzCPrFkmMK7DawBo5ws-LZMQEw6IFFu81bZPwyByXy99dtWfjmK41XqFw1QMSP0ByJ8B5a-7646b6OfJXdlBDyNq_AhMXuXA4WaiTi3Ly-y0p3v0gKjo3Lg4pzFjZyp8GoP_t3kJVANA3qM3rQ_wdGA90GZcV3YstIaVSUeejJxOq9283GH_YisLSwX2sobx8rpCwAcpCDltgJ3-ndp79j00wVZ_xX1Dg5cDIQv_0yZJq8f4mj23QuwiXr0kIw2WI4ZtXdAY7CF4XLJOo-zd9k1cRP5kqVBwe_93hrYo0qYZ6RUHCZdSX3kQoX8_fUVfIO1sX3vayMvK=w481-h361-no
 ---
 
-On Saturday March 10, 2018 Don, Toni and I ventured out to [Mt. Avalon](https://www.mountainproject.com/area/107472592/mt-avalon). With the [NEClimbs Ice Report](http://neclimbs.com) 
+On Saturday March 10, 2018 Don, Toni and I ventured out to [Mt. Avalon](https://www.mountainproject.com/area/107472592/mt-avalon). With the [NEClimbs Ice Report](http://neclimbs.com)
 looking rather pessimistic we deiced to go somewhere with no reported ice condition information. I figured the less we
-knew about the ice the better off we were. So we woke up bright and early, got ourselves some food at Patches and then 
+knew about the ice the better off we were. So we woke up bright and early, got ourselves some food at Patches and then
 leisurely waited for Bear Notch Ski and Snowshoe Rentals to open so we could rent ourselves a pair of snowshoes for our
 little bushwack.
 
@@ -34,7 +34,7 @@ to correct that bearing. It ended up working out well for us. We almost overshot
 think maybe we were going to high, and after consulting our map we agreed and moved left along the cliff and
 soon enough we were at the base of [Battle of the Bulge](https://www.mountainproject.com/route/107472686/the-battle-of-the-bulge). The approach took us about 2 hours starting
 around 9:10 and reaching the cliff around 11:30. We raced up the Mt. Willard trail rather fast, but navigating
-through the woods took a while. Toni and Don took turns breaking trail while I kind of stared at my phone trying to make sense of which way we should go. 
+through the woods took a while. Toni and Don took turns breaking trail while I kind of stared at my phone trying to make sense of which way we should go.
 
 _<center>Don for scale in front of Battle of the Bulge</center>_
 <center>

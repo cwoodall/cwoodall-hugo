@@ -1,0 +1,11 @@
+// Site stylesheet entry point.
+//
+// This file shadows themes/researcher/assets/sass/researcher.scss (Hugo looks in
+// the site's assets/ before the theme's), so all style changes happen here and
+// the theme submodule never needs editing. Loaded from layouts/partials/head.html.
+
+@import "variables";
+@import "base";
+@import "content";
+@import "figures";
+@import "syntax";

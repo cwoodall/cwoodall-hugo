@@ -1,13 +1,3 @@
 {{ define "main" }}
-<link rel="stylesheet" href="/css/syntax.css">
-
-<div class="container">
-    <h1 align="center">{{ .Title }}</h1>
-    <div align="center">{{ .Site.Params.author }} | {{ .Date.Format "2006-01-02" }}</div>
-
-    <img src="{{ .Params.Image }}" />
-
-    <br />
-    {{ .Content }}
-</div>
+{{ partial "article.html" . }}
 {{ end }}

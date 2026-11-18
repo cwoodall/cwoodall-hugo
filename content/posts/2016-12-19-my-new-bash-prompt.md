@@ -26,7 +26,7 @@ the prompt. I have been avoiding unicode in general, but
 [Rust](http://www.rustlang.com) has convinced me that I should try to accept
 unicode into my life more readily!
 
-After going through the process, here are sometake aways:
+After going through the process, here are some takeaways:
 
 1. `printf` supports unicode more reliably than echo. I had some trouble
    getting echo to do what I want to do

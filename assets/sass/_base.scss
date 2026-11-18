@@ -1,0 +1,45 @@
+// Page chrome: fonts, container, navbar, footer, link styles.
+
+%link-default {
+    color: $red;
+    text-decoration: none;
+    & * {
+        color: $red;
+    }
+    &:hover {
+        color: $red;
+        text-decoration: underline;
+    }
+}
+%link-dark {
+    color: $black;
+    text-decoration: none;
+    & * {
+        color: $black;
+    }
+    &:hover {
+        color: $black;
+        text-decoration: underline;
+    }
+}
+
+* {
+    color: $black;
+    font-family: $font-main;
+    line-height: 1.2;
+}
+.container {
+    max-width: $max-width;
+}
+.navbar-brand {
+    @extend %link-dark;
+    font-size: 2rem;
+}
+.nav-link {
+    @extend %link-default;
+}
+#footer {
+    a {
+        @extend %link-dark;
+    }
+}

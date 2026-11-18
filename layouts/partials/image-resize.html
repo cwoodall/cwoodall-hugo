@@ -1,0 +1,23 @@
+{{/*
+  Resize an image resource to at most `width` px wide as webp, applying the EXIF
+  orientation first (Hugo 0.101 has no auto-orient). Never upscales; returns
+  the original for gif/svg (keeps animation / vectors).
+  Usage: partial "image-resize.html" (dict "img" $res "width" 800)
+*/}}
+{{ $img := .img }}
+{{ $out := $img }}
+{{ if not (in (slice "image/gif" "image/svg+xml") $img.MediaType.Type) }}
+    {{ $rot := "" }}
+    {{ with $img.Exif }}
+        {{ with .Tags.Orientation }}
+            {{ $o := int . }}
+            {{ if eq $o 3 }}{{ $rot = " r180" }}{{ else if eq $o 6 }}{{ $rot = " r270" }}{{ else if eq $o 8 }}{{ $rot = " r90" }}{{ end }}
+        {{ end }}
+    {{ end }}
+    {{ $w := .width }}
+    {{ $srcW := $img.Width }}
+    {{ if in (slice " r90" " r270") $rot }}{{ $srcW = $img.Height }}{{ end }}
+    {{ if gt $w $srcW }}{{ $w = $srcW }}{{ end }}
+    {{ $out = $img.Resize (printf "%dx webp q80%s" $w $rot) }}
+{{ end }}
+{{ return $out }}

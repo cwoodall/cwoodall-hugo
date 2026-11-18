@@ -5,8 +5,8 @@ draft: true
 mermaid: true
 ---
 
-While integrating the [AD7124] into a new firmware design I became frustrated that the PDF tables could not be easily copy-pasted out of to create machine parse-able tables 
-for a generator for the register map. With so many registers on board, with lots of configuration bits this was a little frustrating. I started to do the task manually, 
+While integrating the [AD7124] into a new firmware design I became frustrated that the PDF tables could not be easily copy-pasted out of to create machine parse-able tables
+for a generator for the register map. With so many registers on board, with lots of configuration bits this was a little frustrating. I started to do the task manually,
 building up the register maps, register structures, and serialization functions by hand. After getting some basic functionality I realized I needed to configure almost
 all of the registers on the device. So as a result I went on a search for ["pdf table extraction"][search] and eventually found [Tabula].
 

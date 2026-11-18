@@ -1,0 +1,15 @@
+{{/*
+  Cover/hero image for a page.
+  1. A page-bundle resource named cover.* (resized to webp), else
+  2. the `image:` front matter path (served as-is from static/).
+  Renders nothing if neither exists.
+*/}}
+{{ $cover := .Resources.GetMatch "cover.*" }}
+{{ if and $cover (eq $cover.ResourceType "image") }}
+    {{ $img := partial "image-resize.html" (dict "img" $cover "width" 1200) }}
+    <img class="cover" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ .Title }}">
+{{ else }}
+    {{ with .Params.image }}
+        <img class="cover" src="{{ . }}" alt="{{ $.Title }}">
+    {{ end }}
+{{ end }}

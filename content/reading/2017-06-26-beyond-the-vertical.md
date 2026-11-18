@@ -34,7 +34,7 @@ a Layton Kor route! Maybe one of the following:
 - [The Yellow Spur](https://www.mountainproject.com/v/105748657?search=1&type=route&method=resultsPage&query=the%20Yellow%20Spur)
 
 This book inspired me to collect some data from [Mountain Project][mp] and
-create webstite that maps the first ascents of various climbers. [Check it out][wcw]!
+create website that maps the first ascents of various climbers. [Check it out][wcw]!
 
 [Layton Kor]: https://en.wikipedia.org/wiki/Layton_Kor
 [Beyond The Vertical]: https://www.amazon.com/Beyond-Vertical-Layton-Kor/dp/0762781394

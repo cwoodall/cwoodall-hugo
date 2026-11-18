@@ -6,7 +6,7 @@ mermaid: true
 image: /img/posts/2022-01-02-obsidian-ios-sync.md/banner.png
 ---
 
-Obsidian is a wonderful note-taking too, but until mid-2021 there was no official mobile application. I use git to host my Obsidian vaults, and github to store them and sometimes create websites from them using a GitHub Action, GitHub Pages and Neuron. This is how I host my [Generative Art Studio](https://cwoodall.com/generative-art-studio/) page. However, on iOS there is no native support for using git to sync your notes. You can use iCloud, or Obsidian Sync. I have no issues with paying for either of these services, but I wanted to be able to keep my current workflow, but extend it to mobile. 
+Obsidian is a wonderful note-taking too, but until mid-2021 there was no official mobile application. I use git to host my Obsidian vaults, and github to store them and sometimes create websites from them using a GitHub Action, GitHub Pages and Neuron. This is how I host my [Generative Art Studio](https://cwoodall.com/generative-art-studio/) page. However, on iOS there is no native support for using git to sync your notes. You can use iCloud, or Obsidian Sync. I have no issues with paying for either of these services, but I wanted to be able to keep my current workflow, but extend it to mobile.
 
 I developed a free method using [**a-shell**](https://holzschu.github.io/a-Shell_iOS), which can be automated, after initial setup, using iOS Shortcuts. There are two other methods that are well documented on the [Obsidian forum](https://forum.obsidian.md):
 
@@ -26,7 +26,7 @@ So let's get started.
 2. Install [a-shell from the AppStore](https://apps.apple.com/us/app/a-shell/id1473805438). We will be using this and a few of it's built in shortcuts such as `pickFolder` and the `lg2` (which is based on [libgit2](https://github.com/libgit2/libgit2))
 
 ### Setup your ssh keys and git configuration:
-1. Launch a-shell. 
+1. Launch a-shell.
 2. Mount the Obsidian directory you will be doing your work within. This will be the Obsidian folder  : `pickFolder`
     <embed src="/img/posts/2022-01-02-obsidian-ios-sync.md/2022-01-02 18-03-48.mp4" autostart="false" height="300" width="100%"></emb>
     - WARNING: In the above video I use an iCloud folder. I do not recommend this. After a week of using this on my iPad and iPhone I started running into issues here.
@@ -52,7 +52,7 @@ So let's get started.
 
 Setup shortcuts for `pulling` (download changes only), and syncing (`pulling, committing, and then pushing`). Here are the two that I created
 #### [Pull Only](https://www.icloud.com/shortcuts/f609283a61ff44b8af1057b78c025c8f)
-    
+
 ```sh
 pickFolder
 lg2 pull

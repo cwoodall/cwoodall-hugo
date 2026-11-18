@@ -1,0 +1,11 @@
+{{/* Shared single-page layout for posts, climbing and projects. */}}
+<div class="container">
+    <header class="article-header">
+        <h1>{{ .Title }}</h1>
+        <div class="article-meta">{{ .Site.Params.author }} | {{ .Date.Format "2006-01-02" }}</div>
+    </header>
+
+    {{ partial "cover.html" . }}
+
+    {{ .Content }}
+</div>

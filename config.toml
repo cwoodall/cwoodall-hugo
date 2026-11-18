@@ -1,8 +1,10 @@
 title = "Chris Woodall"
-baseURL = "/"
+baseURL = "https://cwoodall.com/"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
+# First-time image processing of large photos can exceed the 30s default.
+timeout = "300s"
 math = true          # enable KaTeX (https://katex.org/) globally
 googleAnalytics = ""  # add your tracking id
 
@@ -18,12 +20,12 @@ googleAnalytics = ""  # add your tracking id
   "/" = "/:filename"
 
 [menu]
-  
+
   [[menu.main]]
     name = "Now"
     url = "/now"
     weight = 1
-    
+
   [[menu.main]]
     name = "Blog"
     url = "/posts"
@@ -32,38 +34,47 @@ googleAnalytics = ""  # add your tracking id
   [[menu.main]]
     name = "Climb"
     url = "/climbing"
-    weight = 3
+    weight = 5
 
   [[menu.main]]
     name = "Read"
     url = "/reading"
-    weight = 2
-
+    weight = 3
 
   [[menu.main]]
     name = "Projects"
     url = "/projects"
-    weight = 3
-
+    weight = 7
 
   [[menu.main]]
     name = "Music"
-    url = "/Music"
-    weight = 3
-
+    url = "/music"
+    weight = 6
 
   [[menu.main]]
     name = "Resume"
     url = "/resume.pdf"
-    weight = 4
+    weight = 8
 
   [[menu.main]]
     name = "Art"
     url = "/generative-art-studio"
-    weight = 3
+    weight = 4
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
 
 [markup.highlight]
 noClasses = false
+
+# Resized page-bundle images (see layouts/_default/_markup/render-image.html).
+# Hugo does not copy EXIF (incl. GPS) into resized outputs.
+[imaging]
+  quality = 80
+  resampleFilter = "Lanczos"
+
+# Only publish page-bundle files that a template/shortcode actually uses
+# (resized webp, videos). Full-size originals stay out of public/.
+[[cascade]]
+  [cascade._build]
+    publishResources = false

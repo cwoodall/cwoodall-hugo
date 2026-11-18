@@ -1,0 +1,12 @@
+{{/* Shared section listing for posts and climbing. */}}
+<div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ range .Pages }}
+        <div class="post-list-item">
+            <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a>
+            {{ partial "cover.html" . }}
+            <p>{{ .Summary }}</p>
+            <a href="{{ .RelPermalink }}">Read more...</a>
+        </div>
+    {{ end }}
+</div>

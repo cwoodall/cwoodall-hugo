@@ -1,11 +1,12 @@
 {{ define "main" }}
 <div class="container">
-    <h1 align="center">Then | {{ .Title }}</h1>
-    <div align="center">{{ .Site.Params.author }} | {{ .Date.Format "2006-01-02" }}</div>
+    <header class="article-header">
+        <h1>Then | {{ .Title }}</h1>
+        <div class="article-meta">{{ .Site.Params.author }} | {{ .Date.Format "2006-01-02" }}</div>
+    </header>
 
-    <img src="{{ .Params.Image }}" />
+    {{ partial "cover.html" . }}
 
-    <br />
     {{ .Content }}
 </div>
 {{ end }}

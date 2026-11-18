@@ -29,7 +29,7 @@ contemplates the seriousness of life with a bus driver:
 These words are potent, and can help one keep life in perspective.
 
 Later in the novel the author inserts himself into the narrative
-directly inorder to be present for the novels climax. He tries to act
+directly in order to be present for the novels climax. He tries to act
 like a conductor, summoning his musicians, bit is keenly away that he
 can setup the situations, but not change their will. While he has
 created his characters, they exert their own will on him. To some
@@ -38,7 +38,7 @@ author cannot easily change that. This speaks to the act of creation in
 general. The creator has great power, but is also controlled by her
 creation.
 
-I would NOT reccomend this book as your first
+I would NOT recommend this book as your first
 Kurt Vonnegut book I recommend reading one or two other Vonnegut books
 first such as: [Cat's Cradle][cc], [Slaughterhouse Five][slf], [Mother Night][mn] or [Welcome to the Monkey House][wttmh].
 

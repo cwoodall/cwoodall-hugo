@@ -9,7 +9,7 @@ Recent music under the name TemporalShift
 
 I have been trying to write down and publish some of my notes about mandolin, and other scores using [MuseScore 3.6](https://musescore.org). Please check into my [scores github repository](https://github.com/cwoodall/scores) to follow along! So far I have tabs + sheet music up for:
 
-- The head for [Work Song by Nat Adderly](https://github.com/cwoodall/scores/blob/main/mandolin/jazz/work-song/work-song-job.pdf) ([mp3](https://github.com/cwoodall/scores/blob/main/mandolin/jazz/work-song/work-song.mp3))
+- The head for [Work Song by Nat Adderley](https://github.com/cwoodall/scores/blob/main/mandolin/jazz/work-song/work-song-job.pdf) ([mp3](https://github.com/cwoodall/scores/blob/main/mandolin/jazz/work-song/work-song.mp3))
 
 For some of my classical music see [my bandcamp page][bandcamp]. Below are
 scores and also players to listen to my pieces. Most of them were composed
@@ -71,7 +71,7 @@ program there.
 </div>
 
 
-For some more some electronic music see [No Shoes][noshoes]. It has some major mixing issues and I reccomend listening to it with headphones.
+For some more some electronic music see [No Shoes][noshoes]. It has some major mixing issues and I recommend listening to it with headphones.
 
 [bandcamp]: http://cwoodall.bandcamp.com/
 [noshoes]: http://noshoes.bandcamp.com/

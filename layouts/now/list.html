@@ -1,13 +1,13 @@
 {{ define "main" }}
 
 <div class="container">
-    <h1>Now</h1> 
+    <h1>Now</h1>
     {{ range first 1 .Pages }}
         <p><b>Updated</b>: {{ .Date.Format "2006-01-02" }}</p>
 
-        <img src="{{ .Params.Image }}" />
+        {{ partial "cover.html" . }}
 
-        <p>{{ .Content }}</p>
+        {{ .Content }}
     {{end}}
 
     <h2>Then</h2>

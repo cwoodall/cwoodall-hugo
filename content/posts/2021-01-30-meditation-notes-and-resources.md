@@ -23,7 +23,7 @@ Also remember it is like lifting weights, every time you are distracted it's not
 
 #### Guided Meditations: Apps and such
 
-- [Sam Harris Waking Up App](https://wakingup.com/) ($100 per month): 
+- [Sam Harris Waking Up App](https://wakingup.com/) ($100 per month):
   I have found this app to have the most comprehensive 28-day program, followed by a ton of additional material and talks with many prominent teachers of mindfulness. I highly recommend it to anyone and it is a very secular approach, which combines some elements of mindfulness, concentration practices, and zen.
 - [Insight Timer App](https://play.google.com/store/apps/details?id=com.spotlightsix.zentimerlite2&hl=en_US&gl=US) (Free): This is a very different style, it is fundamentally unstructured. They have a really good meditation timer built-in and you can search for all sorts of guided meditations. The quality does vary widely, but I recommend [Jack Kornfield], Tara Brach, and [Joseph Goldstein] as a good starting place on this platform. There are also talks from [Thich Nhat Hanh] and others on here, so it can be a very good exploratory platform.
 - I have enjoyed the guided meditations offered by [Tara Brach](https://www.tarabrach.com/guided-meditations/), especially the longer ones and Dharma talks for a spiritual day of recovery and soul healing

@@ -38,7 +38,7 @@ I finished up on June 1 and my co-workers gave me a great send-off. I received a
 
 ![](/img/posts/2023-08-29-sabbatical/beta-biker-jacket.jpeg)
 
-#### Visiting My Parents 
+#### Visiting My Parents
 |                 Stinky, the pet tortoise                 |
 | :------------------------------------------------------: |
 | ![](/img/posts/2023-08-29-sabbatical/family-turtle.jpeg) |
@@ -65,7 +65,7 @@ On the way back to Burlington I stopped by [Hanging Mountain in Western Massachu
 
 #### Spending a Week in the Adirondacks with Ian
 
-After a few days back home I went to the Adirondacks camping at the Sharp Bridge Campground. During this time I finally got to check out Crane Mountain, hike Allen Mountain, and do some memorable climbing at Ragged Mountain and Tilman's Arete. 
+After a few days back home I went to the Adirondacks camping at the Sharp Bridge Campground. During this time I finally got to check out Crane Mountain, hike Allen Mountain, and do some memorable climbing at Ragged Mountain and Tilman's Arete.
 
 |                   Climbing at Crane                   |
 | :---------------------------------------------------: |
@@ -79,9 +79,9 @@ Overall this was a restorative time, with some brewery hopping involved. The hik
 
 #### Squamish Trip
 
-I drove home and then headed straight onto a plane to Vancouver with my partner Emily and we spent a day hiking around town, going around Stanley Park, eating some good food, and assembling our dream climbing team! 
+I drove home and then headed straight onto a plane to Vancouver with my partner Emily and we spent a day hiking around town, going around Stanley Park, eating some good food, and assembling our dream climbing team!
 
-|                     Stanely Park                     |
+|                     Stanley Park                     |
 | :--------------------------------------------------: |
 | ![](/img/posts/2023-08-29-sabbatical/vancouver.jpeg) |
 
@@ -96,7 +96,7 @@ That night we drove up to Squamish settled into our amazing AirBnb and got on a 
 | :-------------------------------------------------: |
 | ![](/img/posts/2023-08-29-sabbatical/me-smoke.jpeg) |
 
-The next day we did Spirit of Squamish (5.8), which brings you right up next to Shannon Falls. 
+The next day we did Spirit of Squamish (5.8), which brings you right up next to Shannon Falls.
 
 ![](/img/posts/2023-08-29-sabbatical/spirit-1.jpeg)
 ![](/img/posts/2023-08-29-sabbatical/spirit-2.jpeg)
@@ -198,13 +198,13 @@ Towards the end of August, I headed to Island Falls, Maine where I spent a week 
   - Mistborn: Secret History
 - Playing music with Emily's family
 - Foraging for Chanterelle Mushrooms (and cooking them)
-- 
+-
 | ![](/img/posts/2023-08-29-sabbatical/chanterelle.jpeg) |
 | :----------------------------------------------------------------: |
 
 ## What's Next
 
-I am starting a job as a Senior Real-Time Controls Engineer at Commonwealth Fusion Systems. I will still be programming in C++ and Python, but my focus will be on control systems for Tokamak Operations. This is a change from my past roles which have all been explicitly in Embedded Software Engineering or Electrical Engineering. I have grown into a controls engineering role working at BETA implementing, tuning, and designing motor controllers for PMSM motors. I am excited to continue to grow in this field and learn more about the physics and engineering of fusion reactors. 
+I am starting a job as a Senior Real-Time Controls Engineer at Commonwealth Fusion Systems. I will still be programming in C++ and Python, but my focus will be on control systems for Tokamak Operations. This is a change from my past roles which have all been explicitly in Embedded Software Engineering or Electrical Engineering. I have grown into a controls engineering role working at BETA implementing, tuning, and designing motor controllers for PMSM motors. I am excited to continue to grow in this field and learn more about the physics and engineering of fusion reactors.
 
 I have been doing some arrangements for violin and mandolin and want to keep on doing that, and recording more music.
 
@@ -256,7 +256,7 @@ I am curious about hydroponics now and am planning on starting a few hydroponic 
 - [Smile... And No One Will See How Broken You Are Inside](https://www.mountainproject.com/route/117688395/smile-and-no-one-will-see-how-broken-you-are-inside)
 - [Godzilla](https://www.mountainproject.com/route/105790717/godzilla)
 - [Rattletale](https://www.mountainproject.com/route/106204435/rattletale)
-- [Imbibing the Movements on Human Destiny](https://www.mountainproject.com/route/117620826/black-systems-solar) 
+- [Imbibing the Movements on Human Destiny](https://www.mountainproject.com/route/117620826/black-systems-solar)
 - [With Love Lie Ancients Nestled Within](https://www.mountainproject.com/route/117622259/with-love-lie-ancients-nestled-within)
 - [Moonstripe](https://www.mountainproject.com/route/121330301/moonstripe)
 - [Perfect Pitch](https://www.mountainproject.com/route/120714098/perfect-pitch)

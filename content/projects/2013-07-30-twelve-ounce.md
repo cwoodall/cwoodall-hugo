@@ -1,7 +1,7 @@
 ---
 title: "Twelve Ounce: A Low-Cost Robot for Experimentation"
 date: 2012-02-01 01:29:18
-date_description: Februrary 2012
+date_description: February 2012
 categories: portfolio
 tag: robotics
 image: /img/projects/twelve-ounce/twelve-ounce.jpg
@@ -10,4 +10,3 @@ source: http://www.github.com/cwoodall/artemis-synth
 video: http://www.youtube.com/watch?v=ljBx9qjmdTc
 id: 6
 ---
-

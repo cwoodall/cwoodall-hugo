@@ -8,17 +8,17 @@ categories: blog
 #image:
 ---
 
-I have recently found myself writing a bunch of serialization (and 
-deserialization) functions in C++ for some very basic structs, and 
-classes. Each of these serialization functions has the same basic 
-form which is basically a series of function calls to convert 
+I have recently found myself writing a bunch of serialization (and
+deserialization) functions in C++ for some very basic structs, and
+classes. Each of these serialization functions has the same basic
+form which is basically a series of function calls to convert
 some data of some type into it's msgpack representation. As the
 number of structs grows this becomes tedious and hard to upgrade. Also,
 there are a few points where programmer error can result in major hard
 to detect problems, if the ordering is wrong, or the number of fields
 is wrong, then all bets are off. I will be the first to admit that
 Google Protobufs basically solves this problem entirely by describing
-the transfer messages, and datatypes in its own language and then 
+the transfer messages, and datatypes in its own language and then
 compiling the target representation.
 
 Inspired by my recent usage of [rust] I decided to see if I could create
@@ -29,7 +29,7 @@ macros to a struct. You can see my experiment on [github].
 
 I found myself reaching for `libclang` and its python wrapper. I flirted
 with the idea of doing this in Rust or Haskell; however, I work fastest
-in Python and this started out as a problem I was trying to solve for 
+in Python and this started out as a problem I was trying to solve for
 work, so if it could not be done fast it was not useful. I did eventually
 abandoned it as a work project because it complicated the build
 process too much, and I figured it would become hard to maintain in its
@@ -37,7 +37,7 @@ own right in the future. Additionally, I used a python library called
 cog, which makes it pretty easy to inline some python into C++ comments
 and execute those actions it is actually pretty slick.
 
-So with my toolchain in hand I ventured off into the world of AST 
+So with my toolchain in hand I ventured off into the world of AST
 parsing with libclang. So first, I have a very simple problem to
 deal with. All of my structs basically look like this:
 
@@ -90,11 +90,11 @@ practically impossible. You could probably do something involving run time
 reflection, or cleverness; however I wanted these to be generated at compile
 time for my needs.
 
-We will add a comment `//+serde(<names of serde generators>)` infront of
-each `struct` or `class` we want serialized. This will act as a flag for 
-our AST parser to extract the `struct` and its  fields. The arguments to 
+We will add a comment `//+serde(<names of serde generators>)` in front of
+each `struct` or `class` we want serialized. This will act as a flag for
+our AST parser to extract the `struct` and its  fields. The arguments to
 `serde()` will provide different serialization templates to apply to
-the `struct`. 
+the `struct`.
 
 ## Finding the decorators
 
@@ -103,10 +103,10 @@ cursors are actually in the syntax tree. The tokens might be:
 
 ```
 COMMENT: //+serde(MySerializer)
-KEYWORD: struct 
-IDENTIFIER: Foo 
+KEYWORD: struct
+IDENTIFIER: Foo
 PUNCTUATION: {
-IDENTIFIER: uint8_t 
+IDENTIFIER: uint8_t
 IDENTIFIER: bar1
 PUNCTUATION: ;
 KEYWORD: float
@@ -119,11 +119,11 @@ While the cursors is tree oriented and more useful for actual reflection:
 
 ```
 STRUCTDECL: Foo
-  - FIELD: 
+  - FIELD:
     - TYPE: uint8_t
     - NAME: bar1
-    - VISIBILITY: public 
-  - FIELD: 
+    - VISIBILITY: public
+  - FIELD:
     - TYPE: float
     - NAME: bar2
     - VISIBILITY: public
@@ -154,7 +154,7 @@ def get_current_scope(cursor):
     Get the current scope of the current cursor.
 
     For example:
-    
+
     namespace A {
     namespace B {
 
@@ -273,7 +273,7 @@ def get_clang_TranslationUnit(path="t.cpp", in_args=[], in_str="", options=0):
 ## The Serde Engine
 
 At this point we have all of the data we need and all we need to do is hand
-it to something to generate our serializers for us. For this I created a 
+it to something to generate our serializers for us. For this I created a
 registry of classes which implement functions for creating serializers and
 deserializers. This is also where cog comes in. A basic example is one which
 prints out the struct. The best place to see this in action is in [example-01](https://github.com/cwoodall/cpp-serde-gen/edit/master/examples/example-01.cpp.cog)

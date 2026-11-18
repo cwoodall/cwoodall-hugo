@@ -10,7 +10,7 @@ image: /img/posts/climbing/anker-screws/1.jpg
 
 I just got myself the Anker Equipment screw holder for my brand new rack of ice screws. This thing was $45.00 and holds
 12 screws. It even has a little pouch in the middle which can fit a 10cm screw, or file depending on what you want to use it for.
-Generally speaking I found it to be rather compact compared to the BD offering. It fits 12 screws nicely and folds up to a rather compact size. 
+Generally speaking I found it to be rather compact compared to the BD offering. It fits 12 screws nicely and folds up to a rather compact size.
 
 <!-- more -->
 

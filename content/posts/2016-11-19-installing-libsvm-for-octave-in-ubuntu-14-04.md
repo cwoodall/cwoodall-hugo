@@ -65,7 +65,7 @@ the commands below:
 >>> savepath()
 ```
 
-Congratulations, you have installed `lisvm` and added it to your path. You
+Congratulations, you have installed `libsvm` and added it to your path. You
 should be able to run `svmtrain` and `svmpredict`. You should be able to get
 the help information for `svmtrain`:
 

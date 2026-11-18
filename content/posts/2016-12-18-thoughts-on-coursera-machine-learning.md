@@ -23,15 +23,15 @@ Read on for more thoughts on the course and tips on how to succeed.
 
 <!--more-->
 
-## Important Take Aways
+## Important Takeaways
 
 For me some of the most important parts of the course were the higher level
 concepts of how to do Machine Learning properly. For example, how to split
 your data set up into a _training_, _cross validation_, and _test_ set instead
-of a _training_ and _test_ set. This allows you to tweak your trainng model
+of a _training_ and _test_ set. This allows you to tweak your training model
 parameters without creating a correlation to your _test_ set. That idea is
 simple, but powerful. Another example that was enlightening was during the
-Photo OCR demo where Andrew Ng discusses how to move a rectanlge of fixed
+Photo OCR demo where Andrew Ng discusses how to move a rectangle of fixed
 aspect ratio through the screen to do image classification. This was a problem
 which I struggled with before, but never came up with a good solution to. I am
 thankful I now have a toolkit for finding the right answer to classification
@@ -77,7 +77,7 @@ I have been using to further my understanding of Machine Learning:
 - [Kaggle Competitions](https://www.kaggle.com/)
 
 Since this worked out so well for me, I am planning on taking the Coursera
-[Crytopgraphy I](https://www.coursera.org/learn/crypto) course.
+[Cryptography I](https://www.coursera.org/learn/crypto) course.
 
 [coursera]: https://www.coursera.org/
 

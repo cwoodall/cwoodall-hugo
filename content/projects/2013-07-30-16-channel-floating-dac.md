@@ -12,4 +12,3 @@ id: 9
 partners: ["Jeffrey Kittredge", "Gaukhar Tergemessova", "Mark Horenstein", "Kritpasitpong Benjathatchaporn"]
 
 ---
-

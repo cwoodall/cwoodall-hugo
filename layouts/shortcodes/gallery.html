@@ -1,0 +1,14 @@
+{{- /*
+  Grid of photos. Put ordinary markdown images inside:
+
+    {{< gallery >}}
+    ![](belmont-1.jpg)
+    ![](belmont-emmy.jpg "Emily at Belmont")
+    ![](train-1.jpg)
+    {{< /gallery >}}
+
+  Each image goes through the image render hook (responsive + click to enlarge).
+*/ -}}
+<div class="gallery">
+{{ .Page.RenderString (dict "display" "block") .Inner }}
+</div>

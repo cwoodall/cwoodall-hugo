@@ -8,36 +8,43 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Checkout submodules
-      run: git submodule update --init --recursive
-    - run: git config --global user.email "chris.j.woodall@gmail.com"
-    - run: git config --global user.name "Deploy Bot"
+    - uses: actions/checkout@v4
+      with:
+        submodules: recursive
+
     - name: Hugo setup
-      # You may pin to the exact commit or the version.
-      # uses: peaceiris/actions-hugo@2e89aa66d0093e4cd14751b3028fc1a179452c2e
-      uses: peaceiris/actions-hugo@v2.6.0
+      uses: peaceiris/actions-hugo@v3
       with:
         extended: true
+        # Keep in sync with the HUGO_VERSION in the Makefile.
         hugo-version: 0.101.0
 
-    # Build website
+    # Reuse resized images between runs (Hugo's image cache).
+    - name: Cache processed images
+      uses: actions/cache@v4
+      with:
+        path: resources/_gen
+        key: hugo-resources-${{ hashFiles('content/**/*.jpg', 'content/**/*.jpeg', 'content/**/*.png', 'layouts/**') }}
+        restore-keys: hugo-resources-
+
+    - name: Check for missing local assets
+      run: python3 scripts/check-assets.py
+
     - name: Build website
-      run: hugo --minify -t researcher
+      run: hugo --minify
     - run: echo "cwoodall.com" > public/CNAME
-    # Deploy website
+
+    # Only deploy on pushes to main; pull requests just build.
     - name: Deploy website
-      uses: peaceiris/actions-gh-pages@v3
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      uses: peaceiris/actions-gh-pages@v4
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        # Change the values to your Github Pages repo
         external_repository: cwoodall/cwoodall.github.io
         publish_branch: master
         publish_dir: ./public
-        # Define commit username/email to the Github Action bot
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'

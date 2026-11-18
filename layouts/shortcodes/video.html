@@ -1,0 +1,17 @@
+{{- /*
+  Embed a video from the page bundle (or an absolute /path in static/).
+
+    {{< video src="tunnel.mp4" >}}
+    {{< video src="tunnel.mp4" poster="tunnel.jpg" caption="Riding through the tunnel" >}}
+    {{< video "tunnel.mp4" >}}
+*/ -}}
+{{- $src := .Get "src" | default (.Get 0) -}}
+{{- with .Page.Resources.GetMatch $src }}{{ $src = .RelPermalink }}{{ else }}{{ if not (or (hasPrefix $src "/") (in $src "://")) }}{{ errorf "video: %q not found in page bundle of %s" $src $.Page.File.Path }}{{ end }}{{ end -}}
+{{- $poster := .Get "poster" -}}
+{{- with $poster }}{{ with $.Page.Resources.GetMatch . }}{{ $poster = (partial "image-resize.html" (dict "img" . "width" 1200)).RelPermalink }}{{ end }}{{ end -}}
+<span class="figure">
+<video controls preload="metadata" playsinline{{ with $poster }} poster="{{ . }}"{{ end }}>
+  <source src="{{ $src }}">
+</video>
+{{- with .Get "caption" }}<span class="caption">{{ . | markdownify }}</span>{{ end }}
+</span>

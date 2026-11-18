@@ -1,19 +1,16 @@
 {
-    "cSpell.words": [
-        "Kahneman",
-        "libgit",
-        "scriptable"
-    ],
+    // Spelling words live in cspell.json / .cspell/project-words.txt so the
+    // pre-commit hook and this editor share one dictionary.
     "grammarly.selectors": [
         {
             "language": "markdown",
             "scheme": "file",
-            "pattern": "content/reading/2022-08-24-to-sell-is-human.md"
+            "pattern": "content/**/*.md"
         },
         {
             "language": "markdown",
             "scheme": "file",
-            "pattern": "content/reading/2022-10-09-the-phoenix-project.md"
+            "pattern": "README.md"
         }
     ]
 }
