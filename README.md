@@ -1,6 +1,6 @@
 # cwoodall.com
 
-Hugo site. Tool versions (Hugo 0.170.1, Dart Sass, pre-commit, Vale) are pinned in
+Hugo site. Tool versions (Hugo 0.170.1, pre-commit, Vale) are pinned in
 `mise.toml`, and CI installs the same versions.
 Pushes to `main` build and deploy to `cwoodall/cwoodall.github.io`; pull requests only build.
 
@@ -15,7 +15,7 @@ mise tasks                           # list all tasks (defined in mise.toml)
 ## Setup and checks
 
 ```sh
-mise install          # hugo, dart-sass, pre-commit, vale (see mise.toml)
+mise install          # hugo, pre-commit, vale (see mise.toml)
 pre-commit install    # run the checks on every commit
 mise run lint         # run them on every file
 ```
@@ -74,17 +74,21 @@ Every post now uses a page bundle; `static/` only holds site-wide files (resume,
 
 ## Styles
 
-All CSS lives in `assets/sass/` (it overrides the theme's copy, so never edit
-`themes/researcher`):
+All styles are plain CSS in `assets/css/` (no Sass or build tools). `layouts/partials/head.html`
+joins them in this order, then minifies and fingerprints the result:
 
 | File | What |
 |---|---|
-| `_variables.scss` | colors, widths, fonts, spacing |
-| `_base.scss` | fonts, navbar, footer, links |
-| `_content.scss` | headings, lists, tables, code, article header, post lists |
-| `_figures.scss` | images, captions, galleries, video |
-| `_syntax.scss` | code highlighting colors |
+| `variables.css` | colors, widths, fonts, spacing as CSS custom properties (`--red`, …) |
+| `base.css` | fonts, navbar, footer, links |
+| `content.css` | headings, lists, tables, code, article header, post lists |
+| `figures.css` | images, captions, galleries, video |
+| `syntax.css` | code highlighting colors |
+
+To change a color or size, edit `variables.css`; everything else uses `var(--name)`.
+To add a file, put it in `assets/css/` and add its name to the list in `head.html`.
+Never edit `themes/researcher`.
 
 Shared page templates are `layouts/partials/article.html` (single pages),
 `post-list.html` (section lists) and `cover.html` (hero image). Avoid inline
-`style=` in posts; add a class in `_figures.scss` or `_content.scss` instead.
+`style=` in posts; add a class in `figures.css` or `content.css` instead.

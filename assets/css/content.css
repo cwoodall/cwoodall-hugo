@@ -1,0 +1,91 @@
+/* Typography and elements inside #content (markdown output). */
+
+#content table th,
+#content table td {
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+    text-align: left;
+}
+
+#content p {
+    margin-bottom: var(--y-small);
+}
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    font-size: medium;
+    font-weight: bold;
+    margin: var(--y-medium) 0 var(--y-small) 0;
+}
+#content h1 { font-size: 1.8rem; }
+#content h2 { font-size: 1.6rem; }
+#content h3 { font-size: 1.4rem; }
+#content h4 { font-size: 1.2rem; }
+
+#content ol {
+    counter-reset: list;
+    list-style: none;
+    padding-left: 0;
+}
+#content ol > li:before {
+    content: "[" counter(list, decimal) "] ";
+    counter-increment: list;
+}
+#content ul {
+    list-style: inside;
+    padding-left: 0;
+}
+
+#content table {
+    margin: var(--y-medium) auto;
+    width: 100%;
+}
+#content table th {
+    font-weight: bold;
+}
+#content table tr:nth-child(2n) {
+    background-color: var(--bg-subtle);
+}
+
+#content blockquote {
+    border-left: 4px solid;
+    font-style: italic;
+    margin: var(--y-medium) 0;
+    padding: 8px 8px;
+}
+
+#content code {
+    color: var(--black);
+    background-color: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 10%;
+    padding: 0px 4px;
+}
+#content pre code {
+    all: unset;
+}
+#content .highlight {
+    margin: var(--y-medium) auto;
+}
+#content .highlight > pre {
+    padding: 8px 8px;
+}
+
+/* Article header (layouts/partials/article.html) */
+.article-header {
+    text-align: center;
+}
+.article-header h1 {
+    margin-bottom: var(--y-small);
+}
+.article-header .article-meta {
+    color: var(--muted);
+}
+
+/* Post listings (layouts/partials/post-list.html) */
+.post-list-item {
+    margin-bottom: calc(2 * var(--y-medium));
+}

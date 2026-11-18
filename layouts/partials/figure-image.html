@@ -10,7 +10,7 @@
   Bundle images get responsive webp variants (srcset), width/height, lazy
   loading, and a link to a large version when one exists. Anything else is a
   plain <img>. A relative path that isn't in the bundle fails the build.
-  Output uses <span>s because goldmark wraps images in <p>; see _figures.scss.
+  Output uses <span>s because goldmark wraps images in <p>; see assets/css/figures.css.
 */ -}}
 {{- $src := .src -}}
 {{- $width := int (.width | default 0) -}}

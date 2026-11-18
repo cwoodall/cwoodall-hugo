@@ -5,9 +5,6 @@
 # CI installs the same tool versions from this file (jdx/mise-action).
 [tools]
 hugo = "0.170.1"
-# Hugo compiles assets/sass/ with Dart Sass (libsass was removed from Hugo).
-# CI reads this version (deploy.yml) and installs the glibc Linux build itself.
-"aqua:sass/dart-sass" = "1.97.3"  # 1.98+ needs macOS 14
 pre-commit = "4.6.2"
 vale = "3.26.0"
 

@@ -1,0 +1,45 @@
+/* Page chrome: fonts, container, navbar, footer, link styles. */
+
+/* Accent links: navbar items and links in posts */
+.nav-link,
+#content a {
+    color: var(--red);
+    text-decoration: none;
+}
+.nav-link *,
+#content a * {
+    color: var(--red);
+}
+.nav-link:hover,
+#content a:hover {
+    color: var(--red);
+    text-decoration: underline;
+}
+
+/* Dark links: site title and footer */
+.navbar-brand,
+#footer a {
+    color: var(--black);
+    text-decoration: none;
+}
+.navbar-brand *,
+#footer a * {
+    color: var(--black);
+}
+.navbar-brand:hover,
+#footer a:hover {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+* {
+    color: var(--black);
+    font-family: var(--font-main);
+    line-height: 1.2;
+}
+.container {
+    max-width: var(--max-width);
+}
+.navbar-brand {
+    font-size: 2rem;
+}

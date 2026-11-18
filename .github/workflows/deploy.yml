@@ -21,17 +21,6 @@ jobs:
       with:
         install_args: hugo
 
-    # Dart Sass at the version pinned in mise.toml, but installed directly:
-    # mise's aqua package picks the musl Linux build, which can't run on
-    # GitHub's glibc (Ubuntu) runners.
-    - name: Install Dart Sass
-      run: |
-        version=$(sed -n 's/^"aqua:sass\/dart-sass" = "\([^"]*\)".*/\1/p' mise.toml)
-        curl -fsSL "https://github.com/sass/dart-sass/releases/download/${version}/dart-sass-${version}-linux-x64.tar.gz" \
-          | tar -xz -C "$RUNNER_TEMP"
-        echo "$RUNNER_TEMP/dart-sass" >> "$GITHUB_PATH"
-        "$RUNNER_TEMP/dart-sass/sass" --version
-
     # Reuse resized images between runs (Hugo's image cache).
     - name: Cache processed images
       uses: actions/cache@v4

@@ -1,0 +1,65 @@
+/* Images, captions, galleries and video.
+
+   Markdown images are rendered by layouts/partials/figure-image.html as
+     <span class="figure"><a><img></a><span class="caption">…</span></span>
+   (spans, because goldmark wraps images in <p>). */
+
+#content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: var(--y-medium) auto;
+}
+#content .avatar > img {
+    border-radius: 50%;
+    float: right;
+    margin: -8px 0 0 16px;
+    height: var(--avatar-size);
+    width: var(--avatar-size);
+}
+#content .figure {
+    display: block;
+    margin: var(--y-medium) 0;
+}
+#content .figure img {
+    margin: 0 auto;
+}
+#content .caption {
+    display: block;
+    margin-top: 0.3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+#content .cover {
+    margin: var(--y-medium) auto;
+}
+
+/* {{< gallery >}} … {{< /gallery >}}
+   Images may be on consecutive lines (one <p>) or separated by blank lines
+   (one <p> each); display: contents makes them all direct grid items. */
+#content .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--gallery-min-col), 1fr));
+    gap: 0.5rem;
+    margin: var(--y-medium) 0;
+}
+#content .gallery > p {
+    display: contents;
+}
+#content .gallery .figure {
+    margin: 0;
+}
+#content .gallery img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    margin: 0;
+}
+
+/* {{< video >}} and legacy <video> tags */
+#content video {
+    display: block;
+    width: 100%;
+    margin: var(--y-medium) auto;
+}
