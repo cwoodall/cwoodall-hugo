@@ -14,7 +14,7 @@ partners: []
 
 While at BU I had an assignment for a class called EC327 which used a 16-bit
 RISC processor that the professors called "simplified x86", also referred to as
-sx86. This was a very basic assembler, and the tool at the time was written in
+sx86. This was a bare-bones assembler, and the tool at the time was written in
 java, but had some issues with copying code in and out of the program requiring
 that you hand copy the code. To make my debugging easier I implemented an emulator
 in Javascript (it should be a valid node.js program), and then a front end to

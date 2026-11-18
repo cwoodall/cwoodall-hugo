@@ -16,7 +16,7 @@ down sides of optimizing [neural networks][nn-wiki]. One of the
 example problems uses an SVM to classify spam emails. A SVM implementation
 written in MATLAB/Octave is used, but for further work [libsvm][libsvm] (or
 another SVM library) is recommended. To get `libsvm` working with Octave in
-Ubuntu 14.04 there are a few steps that are not obvious. I did not find very
+Ubuntu 14.04 there are a few steps that are not obvious. I did not find
 many instructions so I compiled the steps I followed to get a stable Octave
 environment with `libsvm`. Read on for details.
 

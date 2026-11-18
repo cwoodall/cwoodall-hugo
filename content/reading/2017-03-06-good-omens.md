@@ -14,7 +14,7 @@ about the apocalypse, starring a demon who is not so bad, an angel who is not
 so good, and an anti-christ who just wants to play with his friends. I found it
 to be hilarious, with a lot of funny social and religious commentary. The book
 feels mostly like Terry Pratchett, with a little bit of the unique darkness Neil
-Gaiman brings; however, I think the collaboration was very successful. While
+Gaiman brings; however, I think the collaboration was a success. While
 Pratchett's voice overpowers Neil's, the real benefit seems to have been Gaiman
 feeling more comfortable writing books.
 

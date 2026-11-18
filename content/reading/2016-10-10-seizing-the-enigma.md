@@ -17,7 +17,7 @@ person (such as Turing or Welchman), but instead covers the German's, the navy,
 and Bletchley Park (the headquarters of the British code breakers). The descriptions
 of the encoding, and code breaking methods, are easy to follow. However, the real
 point the book drives home is how pure mathematical analysis is important, but
-it in a problem like cryptography it can prove that something is "very difficult"
+it in a problem like cryptography it can prove that something is "extremely difficult"
 to break, without taking into account implementation, and human, details which
 change the mathematical facts. The breaking of the _ENIGMA_ is a beautiful interplay
 between mathematical rigor, engineering, espionage and social reasoning. I think

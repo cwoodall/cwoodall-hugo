@@ -6,7 +6,7 @@ mermaid: true
 image: banner.png
 ---
 
-During the summer of 2023, I took 3 months off from June to September as I transitioned between two jobs. I wanted to experiment with taking some free time to travel, move, and reconnect with my hobbies. I found this time to be very beneficial for my physical and mental health, and I am very grateful to have had the privilege to have been able to take some extended time off from work. I found some perspective and space that will serve me well in my future endeavors.
+During the summer of 2023, I took 3 months off from June to September as I transitioned between two jobs. I wanted to experiment with taking some free time to travel, move, and reconnect with my hobbies. I found this time to be hugely beneficial for my physical and mental health, and I am deeply grateful to have had the privilege to have been able to take some extended time off from work. I found some perspective and space that will serve me well in my future endeavors.
 
 <!--more-->
 
@@ -20,7 +20,7 @@ I had an immediate temptation to make these 3 months big and impressive. I wante
 - Relocate from Burlington, VT to the Boston area.
 - Spend time with my partner, and adjust to living together in Arlington, MA.
 
-The un-moveable activities -- Squamish, Maine, and the move -- became the main elements of how I scheduled my time. I also had to take into account the real facts of my fitness, and what I valued most. This summer included a fair bit of travel, some more domestic activities (decorating, moving, organizing, cooking, and cleaning), lots of climbing, and re-engaging old and deep friendships. This ended up being the first longer break I have taken in my career and I have called it my "mini-sabbatical" [^2]. Let's look over some of what I did!
+The immovable activities -- Squamish, Maine, and the move -- became the main elements of how I scheduled my time. I also had to take into account the real facts of my fitness, and what I valued most. This summer included a fair bit of travel, some more domestic activities (decorating, moving, organizing, cooking, and cleaning), lots of climbing, and re-engaging old and deep friendships. This ended up being the first longer break I have taken in my career and I have called it my "mini-sabbatical" [^2]. Let's look over some of what I did!
 
 [^1]: I am still not 100% on the definition of burnout. In this case, I was feeling some combination of being less effective at work, unable to make good progress in my normal hobbies, and like I had an eroded set of boundaries in my life between life and work. In some ways, it felt like the wheels fell off of my normal motivational systems. It would be wrong to say I was doing bad work, but I wasn't having fun anymore. When I think of this I think of some comments from the [embedded.fm discussion of burnout](https://embedded.fm/transcripts/405). I think it is sad that this experience of burnout is so common in the engineering field.
 
@@ -75,7 +75,7 @@ After a few days back home I went to the Adirondacks camping at the Sharp Bridge
 | :---------------------------------------------------: |
 | ![](ian-ragged.jpeg) |
 
-Overall this was a restorative time, with some brewery hopping involved. The hike of Allen Mountain was a challenge for me as it ended up being a very long day (around 20 miles). I underestimated both the length and difficulty of the day. However, it was beautiful full of some wild strawberries, grouse, and great views... It was also full of mud and a wet slab.
+Overall this was a restorative time, with some brewery hopping involved. The hike of Allen Mountain was a challenge for me as it ended up being a long day (around 20 miles). I underestimated both the length and difficulty of the day. However, it was beautiful full of some wild strawberries, grouse, and great views... It was also full of mud and a wet slab.
 
 #### Squamish Trip
 
@@ -112,7 +112,7 @@ I departed Vancouver straight for Washington
 
 #### Trip to Washington State
 
-I visited with my friends Steph and Rob in the Seattle area (and Tim). We went climbing at Keechelus Ridge, where I got to climb a few sport routes at all grades including a 5.10c which I onsighted. I was feeling very strong. The next few days were filled with a lot of chilling out, hiking, paddle boarding, hanging out by lakes, and helping out around the house and garden. I was also introduced to an awesome Chicken Biryani recipe.
+I visited with my friends Steph and Rob in the Seattle area (and Tim). We went climbing at Keechelus Ridge, where I got to climb a few sport routes at all grades including a 5.10c which I onsighted. I was feeling strong. The next few days were filled with a lot of chilling out, hiking, paddle boarding, hanging out by lakes, and helping out around the house and garden. I was also introduced to an awesome Chicken Biryani recipe.
 
 ![](keechelus-butterfly.jpeg)
 ![](rainer.jpeg)
@@ -120,7 +120,7 @@ I visited with my friends Steph and Rob in the Seattle area (and Tim). We went c
 ![](godzilla.jpeg)
 ![](rattletale.jpeg)
 
-Towards the end of my time in Washington, we took Rob's RV down to Index, WA where we climbed a bunch of classics (Senior Citizens in Space, Godzilla, Rattletale). I was very proud to have led Godzilla at 5.9+ with some encouragement cleanly. This was a test piece for me and a major milestone in my climbing comeback. In some ways, I am starting to feel I am getting close to my peak again.
+Towards the end of my time in Washington, we took Rob's RV down to Index, WA where we climbed a bunch of classics (Senior Citizens in Space, Godzilla, Rattletale). I was proud to have led Godzilla at 5.9+ with some encouragement cleanly. This was a test piece for me and a major milestone in my climbing comeback. In some ways, I am starting to feel I am getting close to my peak again.
 
 This time ended up being pure fun, enjoyment, and a lot of introspection too! I am so grateful to have such great friends.
 
@@ -212,7 +212,7 @@ I want to have friends and family over routinely to have great conversations. I 
 
 I am planning to continue investing time and energy into rock climbing. I have a few 5.10c/d projects on my list and want to bust through that barrier.
 
-I want to continue to learn about mushrooms and foraging. I have found that by learning about mushrooms, and what to identify I am looking at the outdoors in completely new ways. Places I have gone many times to climb now have a whole ecology that is so interesting to learn about. I find it fun to see and identify things I have not seen before, and forage for the very limited set of mushrooms I know how to identify (Chanterelles); however, this has been interesting to me.
+I want to continue to learn about mushrooms and foraging. I have found that by learning about mushrooms, and what to identify I am looking at the outdoors in completely new ways. Places I have gone many times to climb now have a whole ecology that is so interesting to learn about. I find it fun to see and identify things I have not seen before, and forage for the limited set of mushrooms I know how to identify (Chanterelles); however, this has been interesting to me.
 
 I am planning on continuing to read, and write about what I read.
 
@@ -222,11 +222,11 @@ I want to build community, and friendships and continue to grow my relationships
 
 I am curious about hydroponics now and am planning on starting a few hydroponic projects.
 
-## Lessons Learnt
+## Lessons Learned
 
-1. My anxiety is reduced, and my sleep is better; however, this has I think less to do with work and more with a feeling of peace, hopefulness, and a feeling of security about my place in the world. I think a key insight is to **get good sleep (8 hours as a target)**, and have strategies for coping with nighttime anxiety (reading, writing, meditation, etc.). For me, nighttime "yoga nidra" meditations have been very useful if I am keyed up at night.
+1. My anxiety is reduced, and my sleep is better; however, this has I think less to do with work and more with a feeling of peace, hopefulness, and a feeling of security about my place in the world. I think a key insight is to **get good sleep (8 hours as a target)**, and have strategies for coping with nighttime anxiety (reading, writing, meditation, etc.). For me, nighttime "yoga nidra" meditations have been invaluable if I am keyed up at night.
 2. I have a lot of energy, and I am excited to get back to work. I am excited to learn new things and to be challenged in new ways. Keeping non-work projects, and focuses fresh seems to be a way to unlock a lot of energy. My work is important to me, but it is not mine in a lot of ways. We collaborate on work with our peers, and having creative and athletic projects that allow you to grow and are self-driven is important for me to maintain a healthy amount of energy.
-3. Weight loss doesn't come for free. I kept hoping that by changing circumstances with work my weight would start to decrease, and while the trend is down; just removing work did not reduce my weight. However, having a more active day-to-day lifestyle and eating better food does help. Lasting change comes from lifestyle change and good habits not from massive shifts (most of the time).
+3. Weight loss doesn't happen on its own. I kept hoping that by changing circumstances with work my weight would start to decrease, and while the trend is down; just removing work did not reduce my weight. However, having a more active day-to-day lifestyle and eating better food does help. Lasting change comes from lifestyle change and good habits not from massive shifts (most of the time).
 4. Let curiosity guide you.
 5. Value growth over being "the best"
 6. Planning is hard, and entering a mini-sabbatical without the fitness required to take on some of your bucket list items is hard. If I choose to take extended time off of work again I will likely do more work around choosing a few bigger objectives to hit and train for them; as well as, scheduling good time to relax, reset, and reassess

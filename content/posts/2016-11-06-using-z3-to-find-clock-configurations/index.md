@@ -235,8 +235,8 @@ $ k64_pll_calculator -i 1e6 -o 120e6
 No results found.
 ```
 
-And more importantly it was very easy to throw together. I have found
-[click][click] to be very easy to use and have been using it for more complicated
+And more importantly it was easy to throw together. I have found
+[click][click] to be easy to use and have been using it for more complicated
 command line applications.
 
 The other interface I made was for the [web demo][demo] which uses [flask][flask]

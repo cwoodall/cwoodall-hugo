@@ -32,7 +32,7 @@ All of the examples will use this [little bass riff](resources/00-bass-groove-dr
 
 {{< video "resources/00-bass-groove-dry.mp4" >}}
 
-Already you can see all of the controls and settings, the input and output audio and the envelope filter itself, but no effects are being applied. So for a little motivation, here is a [setup with a high-Q filter](resources/00-bass-groove-wet-high-Q.wav). This means it will have a very aggressive wah effect:
+Already you can see all of the controls and settings, the input and output audio and the envelope filter itself, but no effects are being applied. So for a little motivation, here is a [setup with a high-Q filter](resources/00-bass-groove-wet-high-Q.wav). This means it will have an aggressive wah effect:
 
 {{< video "resources/00-bass-groove-wet-high-Q.mp4" >}}
 
@@ -69,7 +69,7 @@ And at present we can control the following things:
 
 ### The Envelope Follower
 
-Envelope Follower takes the input signal and creates a signal that traces the amplitudes of the input signal. This article from [dsprelated]( https://www.dsprelated.com/showarticle/938.php) has a pretty good overview of different algorithms. However, many of these are built around decoding RF radio signals where one frequency is being tracks, but we are interested in decoding the envelope of audio signals from 50Hz-1kHz or so (I am playing bass after all). In this case I decided to use a very simple algorithm which will work with
+Envelope Follower takes the input signal and creates a signal that traces the amplitudes of the input signal. This article from [dsprelated]( https://www.dsprelated.com/showarticle/938.php) has a pretty good overview of different algorithms. However, many of these are built around decoding RF radio signals where one frequency is being tracks, but we are interested in decoding the envelope of audio signals from 50Hz-1kHz or so (I am playing bass after all). In this case I decided to use a simple algorithm which will work with
 variable frequency signals. This takes an absolute value of the signal, then filters that signal with a low pass filter (a 3rd order Butterworth filter).
 
 <center>
@@ -78,7 +78,7 @@ variable frequency signals. This takes an absolute value of the signal, then fil
 
 </center>
 
-This filter performs well, but at low frequencies the envelope will start to wobble at 2x the fundamental frequency of the audio signal. To fight this a lower cutoff frequency was used of 20-30Hz; however, this means that the filter is not as responsive to sharp edges and sharp decays as it could be. Some form of attack detection, a variable frequency filter, or compression may help improve the response time. I was happy with the response of this Envelope Follower, and I actually like the warble in the filter frequency that is caused by very low notes near the cutoff frequency of the envelope follower. The python for this is fairly simple:
+This filter performs well, but at low frequencies the envelope will start to wobble at 2x the fundamental frequency of the audio signal. To fight this a lower cutoff frequency was used of 20-30Hz; however, this means that the filter is not as responsive to sharp edges and sharp decays as it could be. Some form of attack detection, a variable frequency filter, or compression may help improve the response time. I was happy with the response of this Envelope Follower, and I actually like the warble in the filter frequency that is caused by the lowest notes near the cutoff frequency of the envelope follower. The python for this is fairly simple:
 
 ```python
 from scipy import signal
@@ -277,7 +277,7 @@ As increase the Q the auto-wah effect becomes more extreme, this is with a Q=8.
 
 {{< video "resources/00-bass-groove-wet-mid-Q.mp4" >}}
 
-Earlier we heard the high Q effect and it makes the sound more extreme, notice also that when the bass contains the point that is resonant we get a big boost in the output waveform, this can overdrive the output very easily. This problem would normally be solved with a compressor to prevent blowing out speakers.
+Earlier we heard the high Q effect and it makes the sound more extreme, notice also that when the bass contains the point that is resonant we get a big boost in the output waveform, this can easily overdrive the output. This problem would normally be solved with a compressor to prevent blowing out speakers.
 
 {{< video "resources/00-bass-groove-wet-high-Q.mp4" >}}
 

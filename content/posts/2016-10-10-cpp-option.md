@@ -13,7 +13,7 @@ projects I use C/C++ quite extensively. But error handling ends up being
 a major pain point and can make an otherwise rather simple API into a disaster.
 This can be especially true if you are committed to avoiding throwing exceptions for various
 performance and real-time reliability reasons. This is where Rust's model comes
-in as a possibly solution (or at the very least an interesting one): the use of
+in as a possibly solution (or at least an interesting one): the use of
 the `Result<T, E>` types and the `Option<T>` type. For the time being I am going to concentrate on the `Option<T>` type and write about the `Result<T, E>` type in a future post.
 
 The code for this blog post can be found on github as [cpp-option][github]!
@@ -23,7 +23,7 @@ The code for this blog post can be found on github as [cpp-option][github]!
 ### So what is this `Option<T>` thing any way?
 
 `Option<T>` represents a value which is either a type `T` (like an `int`, `float`, or `MyFancyClass`) or `Nothing`. It is a pretty simple concept.
-This makes and `Option<T>` type very good at representing the class of errors
+This makes and `Option<T>` type well suited to representing the class of errors
 where either you returned the correct result, *or* you just couldn't finish the
 computation for some reason. To some degree this is already represented at C.
 When returning a pointer you can modify that pointer to be a null pointer to
@@ -242,7 +242,7 @@ int foo
 auto bar = Some(foo); // Creates an Option<int> wrapping the value of foo.
 ```
 
-Implemented very simply as:
+Implemented simply as:
 
 ``` c++
 template <typename T>
@@ -439,7 +439,7 @@ int main() {
 For an array this might seem a little silly; don't we want a reference or a
 pointer? Probably, but there are similar data-structures where a copy might
 be preferred. For example, peaking into a ring buffer for signal processing
-where we can leverage `unwrap_or` very effectively, or any other datatype where
+where we can leverage `unwrap_or` effectively, or any other datatype where
 you might return something, or maybe there is nothing there... yet.
 
 ### Conclusion

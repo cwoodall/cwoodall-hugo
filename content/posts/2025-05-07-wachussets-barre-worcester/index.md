@@ -92,7 +92,7 @@ Rutland State Forest offers amazing gravel riding—highly recommended for enthu
 ![](rutland-3.jpg)
 ![](barre-falls-1.jpg)
 
-Eventually, we encountered an unplanned creek crossing, adding to our adventure. This was indicated as a through way on all the maps we saw, but there was no bridge. We almost turned around, but we noticed the water was only shin deep and we were able to wade across with no issues. Thankfully, I had packed sandals and was able to safely ferry our bikes across safely.
+Eventually, we encountered an unplanned creek crossing, adding to our adventure. This was indicated as a through way on all the maps we saw, but there was no bridge. We almost turned around, but we noticed the water was only shin deep and we were able to wade across with no issues. Luckily, I had packed sandals and was able to ferry our bikes across safely.
 
 
 ![](water-crossing-2.jpg)

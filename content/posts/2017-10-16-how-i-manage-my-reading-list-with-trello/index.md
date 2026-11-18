@@ -53,7 +53,7 @@ to have trouble organizing my interests, so I created the `Short List` as a work
 area to sort and categorize books I want to read.
 
 When want to add new books I ask myself: "How excited am I about this
-book". If I am very excited I add it to the `Short List`, if I want to record
+book". If I am excited I add it to the `Short List`, if I want to record
 that I might be interested in it I move the book to `Long List`. I also will put
 things I "should" read on the `Short List`. If a friend has lent me a book (less
 frequent now with e-readers) I put it on top of the `Short List` so I know to

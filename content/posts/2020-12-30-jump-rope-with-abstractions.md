@@ -19,7 +19,7 @@ equations", but you soon learn is that you can take first-principles physics (an
 
 That is why being able to __learn__ new models and then __utilize__ them is important. When you have problems abstractions give you a good idea
 of where to look, based on a knowledge of where they fail! Furthermore, this lets you design systems in a layered approach that allows you to target function and various levels of implementation, and then the side-effects of those implementations. Through iteration,
-you can grow the coupling. If applied by an undiscerning eye you can end up with very complex, over-constrained, or designed systems.
+you can grow the coupling. If applied by an undiscerning eye you can end up with overly complex, over-constrained, or designed systems.
 These abstractions sit upon scientific literature, pedagogy, and a bit of curmudgeonly wisdom, but often the hardest thing to do is know that
 today you are holding a hammer and you are looking at a screw, not a nail! One thing I like to remember is a teaching of the Buddha I first read in
 the Diamond Sutra:

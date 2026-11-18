@@ -11,7 +11,7 @@ image: https://images-na.ssl-images-amazon.com/images/I/51N%2BBa1mYOL._SX258_BO1
 [_Show Your Work_][amazon] by [Austin Kleon][austin-kleon] was recommended to me by
 [Derek Sivers][dsivers] and he also has [notes posted][dsiver-show-notes] which are
 rather entertaining and boil down some of the content. I found Austin's book to be
-very insightful, and I found it reinforced my resolve to share what I am working
+deeply insightful, and I found it reinforced my resolve to share what I am working
 on, be that my reading, music, or hobby engineering projects. There are a lot of
 awesome pieces of wisdom hidden in the book about the source of creativity and
 the benefits of sharing, but a core principle is found early on in a quote:

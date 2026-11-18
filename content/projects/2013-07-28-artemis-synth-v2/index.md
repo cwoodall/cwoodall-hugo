@@ -12,7 +12,7 @@ partners: ["Eric Hazen", "Sam Damask"]
 id: 3
 ---
 
-The Artemis Synthesizer is a digital audio synthesizer kit developed in my spare time with help from the [BU Electronic Design Facility][1]. The kits purpose was to help teach a group of female high school freshmen in the [Artemis][2] summer program how to solder. Assembly was designed to take between 2 and 4 hours for a beginner, but should take closer to 30 minutes for someone with prior experience.
+The Artemis Synthesizer is a digital audio synthesizer kit developed in my spare time with help from the [BU Electronic Design Facility][1]. The kits purpose was to help teach a group of female high school first-year students in the [Artemis][2] summer program how to solder. Assembly was designed to take between 2 and 4 hours for a beginner, but should take closer to 30 minutes for someone with prior experience.
 
 The synthesizer utilizes an ATMega328 and a 12-bit DAC to produce the audio, in its default mode you can play 4 different 8 note scales. There is also a sequencer mode and an ability to change the waveform. To load sequences and new waveforms the [optoloader][3] interface is used, which uses javascript to blink a black square on a computer screen and a phototransistor to receive this message, which is then decoded on the microcontroller.
 

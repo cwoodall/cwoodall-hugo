@@ -8,7 +8,7 @@ categories: reading
 image: https://images-na.ssl-images-amazon.com/images/I/718nhCMkc-L.jpg
 ---
 
-[To Sell Is Human] by [Daniel H. Pink] posits that selling is not some scummy thing car salesmen do, instead, it is a core part of being human. In the modern world, we are all salespeople of our craft, we are all engaged in non-sales selling every day: convincing our partner to go to see a specific movie, dating, and convincing our boss to give us a new project. Whatever it is we are in the role of a salesperson every day, whether we like it or not. If we are in this role why not embrace it? So what do we need to do to embrace it? We need to develop the following traits:
+[To Sell Is Human] by [Daniel H. Pink] posits that selling is not some scummy thing car salespeople do, instead, it is a core part of being human. In the modern world, we are all salespeople of our craft, we are all engaged in non-sales selling every day: convincing our partner to go to see a specific movie, dating, and convincing our boss to give us a new project. Whatever it is we are in the role of a salesperson every day, whether we like it or not. If we are in this role why not embrace it? So what do we need to do to embrace it? We need to develop the following traits:
 
 ### Attunement:
 

@@ -11,7 +11,7 @@ image: https://images-na.ssl-images-amazon.com/images/I/41oP29YgLtL._SX355_BO1,2
 Over the last year I have been reading a lot of Stoic philosophy. I decided to
 approached the source texts of [Marcus Aurelius][marcus-wiki] and
 [Seneca The Younger][seneca-wiki] first. I had been doing well for myself by reading
-these very influential texts (most notably
+these influential texts (most notably
 [_Meditations_ by Marcus Aurelius][meditations-amazon] and
 [_On The Shortness of Life_ by Seneca][shortness-amazon]); however, found myself
 desiring some interpretation from a modern perspective to help challenge my

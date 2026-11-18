@@ -10,7 +10,7 @@ image: https://lh3.googleusercontent.com/_ekQngwWW8B7TPTphOPLToY5wH3Vdv_zrEFJ7Hn
 
 On Saturday March 10, 2018 Don, Toni and I ventured out to [Mt. Avalon](https://www.mountainproject.com/area/107472592/mt-avalon). With the [NEClimbs Ice Report](http://neclimbs.com)
 looking rather pessimistic we deiced to go somewhere with no reported ice condition information. I figured the less we
-knew about the ice the better off we were. So we woke up bright and early, got ourselves some food at Patches and then
+knew about the ice the better off we were. So we woke up at dawn, got ourselves some food at Patches and then
 leisurely waited for Bear Notch Ski and Snowshoe Rentals to open so we could rent ourselves a pair of snowshoes for our
 little bushwack.
 
@@ -22,7 +22,7 @@ _<center>Walking in the woods</center>_
 
 The trail to get out there is not particularly bad for the first 1.3 miles. You follow the Mt. Willard trail for this stretch.
 When the Mt. Willard trail makes hard left to the summit you make a hard right into the woods, this part of the approach
-will NOT be packed out (unless you are very lucky), and if it snowed recently snow shoes are recommended.
+will NOT be packed out (unless you are lucky), and if it snowed recently snow shoes are recommended.
 
 _<center>A map of the approach to Mt. Avalon. The <span style="color:red">red</span> is our actual path and <span style="color:purple">purple</span> was our intended path.</center>_
 
@@ -74,7 +74,7 @@ _<center>Don wondering if there is actually ice under all that snow.</center>_
 While they were climbing I took the opportunity to hunt along the cliff band. I did not make it all the way out to Peer
 Pressure, but have a pretty good idea where it is. I did get a nice picture of [Tally Ho!](https://www.mountainproject.com/route/107472639/tally-ho) though.
 
-_<center>A very snow covered Tally Ho! the beginning of the Yellow Wall is on the left.</center>_
+_<center>A heavily snow-covered Tally Ho! the beginning of the Yellow Wall is on the left.</center>_
 
 <center>
 <img src="https://lh3.googleusercontent.com/nT7GD4gmAcJ4I7gUHE1AGD4xhUInvGcraUiZZsQ6pFqrk-fkiPAcoiHUCVNX0KAnoAYYNkVhndY90qUyWU_eTUsvcv6K08DbDl03_ntpt3hGZW4tHWOy3HVL8p53DKaj78SOgsbcC7NPHGa6eFv63Up23IHGTsMm-O6srvB4DZKMkVHdJ_L_ggwif4AvGEVuhCU8rUkbid4MI91fOWfdBp1h__hUurwwOerGlmoQipZoX5ejAkDPuqvO7klkpMnsM-T9J4FpXcGQG-HedfdnoqBZnhphtDD--zdfLzVT4RbaEUZdsi8IJAYnVjn_Y-ILPJajH15fjl-mVWvF7-43aRI7VjQtOqBXiOIZ7ND6M8SNgjKYArlQFM4e8UiXyp4wPpYUyLA9NhyrwVPfLi4krEh1lZS-ZpSrAFWwerNrpVHRV_lhMFWHM2WII__61UD8BR-YNGSEqOYLqDTwbB_gh68N0KJQdZNNpYtTIWh96E2Rrf_z-GS1FadYqtqQEJaWwldjzvOZJix0x1zwK5RosUZ-6UK0AF6GcAwKiHxUFVxpC3zPHbAAK9BFUQV4skrFR_MwZzwMnFt6RcSFOsLfINR_e20HdfMQeRRiKh8TSEato0hCbVwoG-nmU55nWzaAMmr-8m9u3k0Zrrd67PBKdc237cDoUQjU=w481-h361-no" />

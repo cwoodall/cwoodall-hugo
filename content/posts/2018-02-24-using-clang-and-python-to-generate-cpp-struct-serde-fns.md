@@ -9,7 +9,7 @@ categories: blog
 ---
 
 I have recently found myself writing a bunch of serialization (and
-deserialization) functions in C++ for some very basic structs, and
+deserialization) functions in C++ for some basic structs, and
 classes. Each of these serialization functions has the same basic
 form which is basically a series of function calls to convert
 some data of some type into it's msgpack representation. As the
@@ -38,7 +38,7 @@ cog, which makes it pretty easy to inline some python into C++ comments
 and execute those actions it is actually pretty slick.
 
 So with my toolchain in hand I ventured off into the world of AST
-parsing with libclang. So first, I have a very simple problem to
+parsing with libclang. So first, I have a simple problem to
 deal with. All of my structs basically look like this:
 
 ```c++
@@ -69,7 +69,7 @@ bool my_serialization(serialization_writer *writer, Foo const &data) {
 ```
 
 Note, the recursive use of overloaded `my_serialization()` functions, this
-little design choice makes our code generation very easy, by making C++ do
+little design choice makes our code generation easy, by making C++ do
 some of the heavy lifting for us, we don't even need to worry about types.
 For more complicated types we just need to make sure a `my_serialization()`
 is implemented for them and we are off to the races. From a simple view
@@ -285,9 +285,9 @@ it was rather simple, it opened up my mind to a whole world of metaprogramming a
 I did not previously think about. Eventually I decided this project, was more dangerous than
 it was worth. All it would take is one person not to understand it for it to cause a lot of
 issues, so I eventually dropped it. However, I do think there is value in knowing how to
-work with `libclang`, because you can generate some very powerful analytical tools and linters
-which could help an organization with very specific needs. I could also see the benefits in
-compile time reflection like this; however, I think the maintenance burden would be very high.
+work with `libclang`, because you can generate some powerful analytical tools and linters
+which could help an organization with highly specific needs. I could also see the benefits in
+compile time reflection like this; however, I think the maintenance burden would be high.
 
 [github]: https://github.com/cwoodall/cpp-serde-gen
 [rust]: https://www.rust-lang.org/en-US/
