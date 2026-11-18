@@ -1,0 +1,19 @@
+{{- /*
+  Markdown links. A relative link to a file in the page bundle
+  ([the riff](resources/bass-groove-dry.wav)) resolves to that file and
+  publishes it; a relative link to a media/pdf file that isn't in the bundle
+  fails the build. Everything else renders unchanged.
+*/ -}}
+{{- $u := .Destination -}}
+{{- if not (or (hasPrefix $u "/") (hasPrefix $u "#") (hasPrefix $u "?") (in $u ":")) -}}
+  {{- $path := index (split $u "#") 0 -}}
+  {{- with .Page.Resources.GetMatch $path -}}
+    {{- $u = .RelPermalink -}}
+  {{- else -}}
+    {{- if in (slice ".jpg" ".jpeg" ".png" ".gif" ".webp" ".svg" ".pdf" ".mp3" ".wav" ".mp4" ".mov" ".zip") (lower (path.Ext $path)) -}}
+      {{- errorf "link %q not found in page bundle of %s" $u $.Page.File.Path -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<a href="{{ $u | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- /* trim */ -}}

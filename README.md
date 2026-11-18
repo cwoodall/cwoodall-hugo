@@ -51,7 +51,14 @@ Skip the checks with `git commit --no-verify`, or skip one with `SKIP=vale git c
    {{< /gallery >}}
 
    {{< video "tunnel.mp4" >}}
+
+   {{< img src="screenshot.png" width="200" alt="Fixed-width image" >}}
+
+   [Download the audio](resources/clip.wav)
    ```
+
+   Links to files in the bundle (audio, PDFs, …) work like images: use the
+   relative name, and a missing file fails the build.
 
    Name one image `cover.jpg` to make it the hero/list image (no front matter needed).
 4. Set `draft: false` when ready.
@@ -61,7 +68,7 @@ Hugo resizes bundle images to responsive webp at build time
 A missing file fails the build. The first build after adding many photos is slow
 (processed images are cached in `resources/_gen/`).
 
-Older posts reference `/img/...` files in `static/`; those still work unchanged.
+Every post now uses a page bundle; `static/` only holds site-wide files (resume, PDFs, avatar).
 
 ## Styles
 

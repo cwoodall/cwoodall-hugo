@@ -1,0 +1,7 @@
+{{- /*
+  An image with a fixed display width (markdown can't express one):
+
+    {{< img src="shortcut-pull.png" width="200" alt="Pull shortcut" >}}
+    {{< img src="chart.png" width="500" caption="Books per year" >}}
+*/ -}}
+{{- partial "figure-image.html" (dict "page" .Page "src" (.Get "src") "alt" (.Get "alt") "caption" (.Get "caption") "width" (.Get "width")) -}}

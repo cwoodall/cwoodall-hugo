@@ -1,10 +1,13 @@
 {{/*
-  Cover/hero image for a page.
-  1. A page-bundle resource named cover.* (resized to webp), else
-  2. the `image:` front matter path (served as-is from static/).
-  Renders nothing if neither exists.
+  Cover/hero image for a page, first match wins:
+  1. `image:` front matter naming a page-bundle file (image: banner.png)
+  2. a page-bundle file named cover.*
+  3. `image:` as an absolute /static path or URL (served as-is)
+  Bundle images are resized to webp; gifs/svgs are used as-is.
 */}}
-{{ $cover := .Resources.GetMatch "cover.*" }}
+{{ $cover := false }}
+{{ with .Params.image }}{{ $cover = $.Resources.GetMatch . }}{{ end }}
+{{ if not $cover }}{{ $cover = .Resources.GetMatch "cover.*" }}{{ end }}
 {{ if and $cover (eq $cover.ResourceType "image") }}
     {{ $img := partial "image-resize.html" (dict "img" $cover "width" 1200) }}
     <img class="cover" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ .Title }}">

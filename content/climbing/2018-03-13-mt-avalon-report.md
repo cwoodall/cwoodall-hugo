@@ -28,7 +28,7 @@ _<center>A map of the approach to Mt. Avalon. The <span style="color:red">red</s
 
 <iframe width="100%" height="500px" src="https://caltopo.com/m/U3M2"></iframe>
 
-This was also my first time using [caltopo](caltopo.com) to make a map, and then using [Avenza Maps](https://www.avenza.com/avenza-maps/) and my phones GPS to get out into the backcountry. As a precaution
+This was also my first time using [caltopo](https://caltopo.com) to make a map, and then using [Avenza Maps](https://www.avenza.com/avenza-maps/) and my phones GPS to get out into the backcountry. As a precaution
 we also brought a paper map and took a bearing with a compass when we started, periodically we used our GPS
 to correct that bearing. It ended up working out well for us. We almost overshot the ice, but Toni started to
 think maybe we were going to high, and after consulting our map we agreed and moved left along the cliff and

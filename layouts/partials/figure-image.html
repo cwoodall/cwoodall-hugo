@@ -1,0 +1,57 @@
+{{- /*
+  Shared image renderer used by the markdown render hook and {{< img >}}.
+  dict:
+    page     the page
+    src      bundle-relative path ("falls.jpg"), /static path, or URL
+    alt      alt text
+    caption  optional caption (markdown)
+    width    optional display width in px (default: full column)
+
+  Bundle images get responsive webp variants (srcset), width/height, lazy
+  loading, and a link to a large version when one exists. Anything else is a
+  plain <img>. A relative path that isn't in the bundle fails the build.
+  Output uses <span>s because goldmark wraps images in <p>; see _figures.scss.
+*/ -}}
+{{- $src := .src -}}
+{{- $width := int (.width | default 0) -}}
+{{- $res := false -}}
+{{- $isLocal := not (or (hasPrefix $src "/") (in $src "://")) -}}
+{{- if $isLocal -}}
+  {{- $res = .page.Resources.GetMatch $src -}}
+  {{- if not $res -}}
+    {{- errorf "image %q not found in page bundle of %s" $src .page.File.Path -}}
+  {{- end -}}
+{{- end -}}
+<span class="figure">
+{{- if and $res (eq $res.ResourceType "image") -}}
+  {{- $variants := slice -}}
+  {{- $widths := slice -}}
+  {{- range slice 480 800 1200 1600 -}}
+    {{- $r := partial "image-resize.html" (dict "img" $res "width" .) -}}
+    {{- if not (in $widths $r.Width) -}}
+      {{- $variants = $variants | append (printf "%s %dw" $r.RelPermalink $r.Width) -}}
+      {{- $widths = $widths | append $r.Width -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $img := partial "image-resize.html" (dict "img" $res "width" 1200) -}}
+  {{- $full := partial "image-resize.html" (dict "img" $res "width" 2000) -}}
+  {{- $w := $img.Width -}}
+  {{- $h := $img.Height -}}
+  {{- $sizes := "(max-width: 782px) 100vw, 750px" -}}
+  {{- if and $width (lt $width $w) -}}
+    {{- $h = div (mul $h $width) $w -}}
+    {{- $w = $width -}}
+    {{- $sizes = printf "%dpx" $width -}}
+  {{- end -}}
+  {{- $tag := printf `<img src="%s" srcset="%s" sizes="%s" width="%d" height="%d" alt="%s" loading="lazy" decoding="async">` $img.RelPermalink (delimit $variants ", ") $sizes $w $h (.alt | htmlEscape) -}}
+  {{- if ne $full.RelPermalink $img.RelPermalink -}}
+    <a href="{{ $full.RelPermalink }}">{{ $tag | safeHTML }}</a>
+  {{- else -}}
+    {{- $tag | safeHTML -}}
+  {{- end -}}
+{{- else -}}
+  <img src="{{ with $res }}{{ .RelPermalink }}{{ else }}{{ $src | safeURL }}{{ end }}" alt="{{ .alt }}"{{ with $width }} width="{{ . }}"{{ end }} loading="lazy">
+{{- end -}}
+{{- with .caption }}<span class="caption">{{ . | markdownify }}</span>{{ end -}}
+</span>
+{{- /* trim */ -}}
